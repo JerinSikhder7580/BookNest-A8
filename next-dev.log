@@ -1,0 +1,2216 @@
+
+> booknest-8@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.104:3000
+- Environments: .env
+✓ Ready in 425ms
+
+ GET / 200 in 385ms (next.js: 208ms, application-code: 177ms)
+ GET / 200 in 45ms (next.js: 3ms, application-code: 42ms)
+ GET /about 404 in 78ms (next.js: 41ms, application-code: 37ms)
+ GET / 200 in 43ms (next.js: 4ms, application-code: 39ms)
+ GET /home 404 in 27ms (next.js: 6ms, application-code: 21ms)
+ GET /home 404 in 42ms (next.js: 8ms, application-code: 34ms)
+ GET /all-books 404 in 10ms (next.js: 3ms, application-code: 7ms)
+ GET /all-books 404 in 44ms (next.js: 8ms, application-code: 36ms)
+ GET /my-profile 404 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET /my-profile 404 in 36ms (next.js: 3ms, application-code: 33ms)
+ GET /home 404 in 9ms (next.js: 5ms, application-code: 4ms)
+ GET /home 404 in 37ms (next.js: 3ms, application-code: 34ms)
+ GET / 200 in 37ms (next.js: 3ms, application-code: 34ms)
+/*! 🌼 daisyUI 5.5.19 */
+ GET / 200 in 179ms (next.js: 80ms, application-code: 99ms)
+ GET / 200 in 57ms (next.js: 5ms, application-code: 52ms)
+ GET / 200 in 26ms (next.js: 4ms, application-code: 22ms)
+ GET / 200 in 8ms (next.js: 2ms, application-code: 6ms)
+ GET / 200 in 19ms (next.js: 1899µs, application-code: 17ms)
+ GET / 200 in 128ms (next.js: 73ms, application-code: 55ms)
+ GET / 200 in 20ms (next.js: 3ms, application-code: 18ms)
+ GET / 200 in 137ms (next.js: 72ms, application-code: 65ms)
+ GET / 200 in 34ms (next.js: 3ms, application-code: 31ms)
+ GET / 200 in 106ms (next.js: 62ms, application-code: 44ms)
+ GET / 200 in 18ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 123ms (next.js: 68ms, application-code: 55ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 111ms (next.js: 68ms, application-code: 43ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 88ms (next.js: 3ms, application-code: 85ms)
+ GET / 500 in 312ms (next.js: 150ms, application-code: 163ms)
+ GET / 500 in 30ms (next.js: 13ms, application-code: 17ms)
+ GET / 200 in 160ms (next.js: 70ms, application-code: 89ms)
+ GET / 200 in 43ms (next.js: 2ms, application-code: 40ms)
+ GET / 200 in 109ms (next.js: 61ms, application-code: 48ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 110ms (next.js: 61ms, application-code: 49ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 133ms (next.js: 64ms, application-code: 69ms)
+ GET / 200 in 35ms (next.js: 3ms, application-code: 32ms)
+✓ Compiled in 32ms
+ GET / 200 in 138ms (next.js: 79ms, application-code: 60ms)
+ GET / 200 in 27ms (next.js: 2ms, application-code: 25ms)
+ GET /bannerImgge.jpg 404 in 156ms (next.js: 71ms, application-code: 85ms)
+✓ Compiled in 29ms
+ GET / 200 in 168ms (next.js: 103ms, application-code: 66ms)
+ GET / 200 in 39ms (next.js: 3ms, application-code: 36ms)
+ GET / 200 in 110ms (next.js: 69ms, application-code: 41ms)
+ GET / 200 in 19ms (next.js: 1989µs, application-code: 17ms)
+ GET /bannerIm.jpg 404 in 81ms (next.js: 11ms, application-code: 70ms)
+ GET / 200 in 106ms (next.js: 63ms, application-code: 43ms)
+ GET / 200 in 18ms (next.js: 1944µs, application-code: 16ms)
+ GET /bannerIma.jpg 404 in 86ms (next.js: 11ms, application-code: 75ms)
+ GET / 200 in 111ms (next.js: 66ms, application-code: 45ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 83ms (next.js: 2ms, application-code: 81ms)
+ GET / 200 in 154ms (next.js: 89ms, application-code: 65ms)
+ GET / 200 in 34ms (next.js: 3ms, application-code: 32ms)
+ GET / 200 in 116ms (next.js: 66ms, application-code: 50ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 143ms (next.js: 72ms, application-code: 70ms)
+ GET / 200 in 38ms (next.js: 3ms, application-code: 36ms)
+ GET / 200 in 122ms (next.js: 78ms, application-code: 44ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 85ms (next.js: 3ms, application-code: 82ms)
+ GET / 200 in 137ms (next.js: 66ms, application-code: 72ms)
+ GET / 200 in 38ms (next.js: 3ms, application-code: 35ms)
+ GET / 200 in 114ms (next.js: 73ms, application-code: 41ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 103ms (next.js: 62ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 108ms (next.js: 65ms, application-code: 43ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 103ms (next.js: 3ms, application-code: 101ms)
+ GET / 200 in 135ms (next.js: 74ms, application-code: 62ms)
+ GET / 200 in 32ms (next.js: 4ms, application-code: 29ms)
+ GET / 200 in 142ms (next.js: 81ms, application-code: 61ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 126ms (next.js: 77ms, application-code: 49ms)
+ GET / 200 in 22ms (next.js: 1963µs, application-code: 20ms)
+ GET / 200 in 146ms (next.js: 95ms, application-code: 51ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 138ms (next.js: 72ms, application-code: 66ms)
+ GET / 200 in 37ms (next.js: 3ms, application-code: 34ms)
+ GET / 200 in 126ms (next.js: 83ms, application-code: 43ms)
+ GET / 200 in 17ms (next.js: 1889µs, application-code: 15ms)
+ GET /banner.jpg 404 in 113ms (next.js: 18ms, application-code: 94ms)
+ GET / 200 in 34ms (next.js: 1932µs, application-code: 32ms)
+ GET /banner.jpg 404 in 52ms (next.js: 5ms, application-code: 47ms)
+ GET / 200 in 135ms (next.js: 73ms, application-code: 62ms)
+ GET / 200 in 38ms (next.js: 3ms, application-code: 36ms)
+ GET /banner.jpg. 404 in 83ms (next.js: 15ms, application-code: 68ms)
+ GET / 200 in 111ms (next.js: 65ms, application-code: 46ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET /banner.jpg.j 404 in 75ms (next.js: 11ms, application-code: 64ms)
+ GET / 200 in 117ms (next.js: 72ms, application-code: 45ms)
+ GET / 200 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET /banner.jpg.jp 404 in 103ms (next.js: 18ms, application-code: 85ms)
+ GET / 200 in 106ms (next.js: 65ms, application-code: 41ms)
+ GET / 200 in 17ms (next.js: 1896µs, application-code: 15ms)
+ GET /banner.jpg.jpe 404 in 75ms (next.js: 11ms, application-code: 64ms)
+ GET / 200 in 114ms (next.js: 73ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1915µs, application-code: 16ms)
+ GET / 200 in 135ms (next.js: 87ms, application-code: 49ms)
+ GET / 200 in 18ms (next.js: 1885µs, application-code: 16ms)
+ GET / 200 in 97ms (next.js: 2ms, application-code: 95ms)
+ GET / 200 in 112ms (next.js: 63ms, application-code: 49ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 22ms)
+ GET / 200 in 122ms (next.js: 65ms, application-code: 57ms)
+ GET / 200 in 31ms (next.js: 3ms, application-code: 28ms)
+ GET / 200 in 119ms (next.js: 72ms, application-code: 48ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 21ms)
+ GET / 200 in 111ms (next.js: 63ms, application-code: 49ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 198ms (next.js: 106ms, application-code: 91ms)
+ GET / 200 in 23ms (next.js: 4ms, application-code: 19ms)
+ GET / 200 in 102ms (next.js: 61ms, application-code: 41ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 120ms (next.js: 75ms, application-code: 45ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 148ms (next.js: 86ms, application-code: 62ms)
+ GET / 200 in 26ms (next.js: 3ms, application-code: 23ms)
+ GET / 200 in 122ms (next.js: 78ms, application-code: 44ms)
+ GET / 200 in 19ms (next.js: 1941µs, application-code: 17ms)
+ GET / 200 in 107ms (next.js: 64ms, application-code: 42ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 128ms (next.js: 84ms, application-code: 44ms)
+ GET / 200 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET / 200 in 125ms (next.js: 66ms, application-code: 59ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET / 200 in 145ms (next.js: 94ms, application-code: 51ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 147ms (next.js: 72ms, application-code: 75ms)
+ GET / 200 in 47ms (next.js: 4ms, application-code: 43ms)
+ GET / 200 in 112ms (next.js: 69ms, application-code: 43ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 143ms (next.js: 80ms, application-code: 63ms)
+ GET / 200 in 27ms (next.js: 3ms, application-code: 24ms)
+ GET / 200 in 127ms (next.js: 84ms, application-code: 43ms)
+ GET / 200 in 18ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 117ms (next.js: 69ms, application-code: 48ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 115ms (next.js: 66ms, application-code: 50ms)
+ GET / 200 in 20ms (next.js: 1994µs, application-code: 18ms)
+ GET / 200 in 162ms (next.js: 75ms, application-code: 87ms)
+ GET / 200 in 47ms (next.js: 3ms, application-code: 44ms)
+ GET / 200 in 107ms (next.js: 65ms, application-code: 43ms)
+ GET / 200 in 18ms (next.js: 1819µs, application-code: 16ms)
+ GET / 200 in 127ms (next.js: 80ms, application-code: 47ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET / 200 in 108ms (next.js: 66ms, application-code: 42ms)
+ GET / 200 in 21ms (next.js: 1929µs, application-code: 19ms)
+ GET / 200 in 108ms (next.js: 64ms, application-code: 44ms)
+ GET / 200 in 20ms (next.js: 1861µs, application-code: 18ms)
+ GET / 200 in 131ms (next.js: 67ms, application-code: 64ms)
+ GET / 200 in 29ms (next.js: 4ms, application-code: 25ms)
+ GET / 200 in 107ms (next.js: 64ms, application-code: 43ms)
+ GET / 200 in 20ms (next.js: 1801µs, application-code: 18ms)
+ GET / 200 in 97ms (next.js: 55ms, application-code: 43ms)
+ GET / 200 in 22ms (next.js: 1970µs, application-code: 20ms)
+ GET / 200 in 105ms (next.js: 53ms, application-code: 52ms)
+ GET / 200 in 29ms (next.js: 1850µs, application-code: 27ms)
+ GET / 200 in 116ms (next.js: 67ms, application-code: 49ms)
+ GET / 200 in 21ms (next.js: 1866µs, application-code: 19ms)
+ GET / 200 in 103ms (next.js: 54ms, application-code: 49ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET / 200 in 99ms (next.js: 58ms, application-code: 41ms)
+ GET / 200 in 19ms (next.js: 1817µs, application-code: 17ms)
+ GET / 500 in 67ms (next.js: 36ms, application-code: 31ms)
+ GET / 500 in 21ms (next.js: 8ms, application-code: 13ms)
+ GET / 200 in 208ms (next.js: 78ms, application-code: 130ms)
+ GET / 200 in 52ms (next.js: 2ms, application-code: 50ms)
+ GET / 200 in 119ms (next.js: 73ms, application-code: 46ms)
+ GET / 200 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET / 200 in 103ms (next.js: 56ms, application-code: 47ms)
+ GET / 200 in 24ms (next.js: 2ms, application-code: 22ms)
+ GET / 200 in 101ms (next.js: 61ms, application-code: 40ms)
+ GET / 200 in 18ms (next.js: 1949µs, application-code: 17ms)
+ GET / 200 in 140ms (next.js: 66ms, application-code: 73ms)
+ GET / 200 in 52ms (next.js: 3ms, application-code: 49ms)
+ GET / 200 in 95ms (next.js: 55ms, application-code: 40ms)
+ GET / 200 in 18ms (next.js: 1966µs, application-code: 16ms)
+ GET / 200 in 192ms (next.js: 133ms, application-code: 59ms)
+ GET / 200 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET / 200 in 123ms (next.js: 79ms, application-code: 44ms)
+ GET / 200 in 19ms (next.js: 1916µs, application-code: 17ms)
+ GET / 200 in 116ms (next.js: 73ms, application-code: 44ms)
+ GET / 200 in 22ms (next.js: 1861µs, application-code: 20ms)
+ GET / 200 in 171ms (next.js: 108ms, application-code: 63ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 136ms (next.js: 86ms, application-code: 49ms)
+ GET / 200 in 26ms (next.js: 3ms, application-code: 23ms)
+ GET / 200 in 111ms (next.js: 71ms, application-code: 40ms)
+ GET / 200 in 19ms (next.js: 1780µs, application-code: 17ms)
+ GET / 200 in 107ms (next.js: 68ms, application-code: 39ms)
+ GET / 200 in 21ms (next.js: 1852µs, application-code: 19ms)
+ GET / 200 in 141ms (next.js: 91ms, application-code: 51ms)
+ GET / 200 in 23ms (next.js: 1933µs, application-code: 21ms)
+ GET / 200 in 113ms (next.js: 71ms, application-code: 42ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 121ms (next.js: 68ms, application-code: 52ms)
+ GET / 200 in 21ms (next.js: 1985µs, application-code: 19ms)
+ GET / 200 in 113ms (next.js: 71ms, application-code: 42ms)
+ GET / 200 in 18ms (next.js: 1838µs, application-code: 17ms)
+ GET / 200 in 135ms (next.js: 83ms, application-code: 52ms)
+ GET / 200 in 30ms (next.js: 3ms, application-code: 27ms)
+ GET / 200 in 111ms (next.js: 70ms, application-code: 41ms)
+ GET / 200 in 20ms (next.js: 1929µs, application-code: 18ms)
+ GET / 200 in 111ms (next.js: 72ms, application-code: 39ms)
+ GET / 200 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET / 200 in 113ms (next.js: 72ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1898µs, application-code: 16ms)
+ GET / 200 in 110ms (next.js: 71ms, application-code: 39ms)
+ GET / 200 in 19ms (next.js: 1752µs, application-code: 18ms)
+ GET / 200 in 114ms (next.js: 66ms, application-code: 49ms)
+ GET / 200 in 21ms (next.js: 1886µs, application-code: 19ms)
+ GET / 200 in 111ms (next.js: 60ms, application-code: 50ms)
+ GET / 200 in 24ms (next.js: 3ms, application-code: 21ms)
+ GET / 200 in 101ms (next.js: 60ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1834µs, application-code: 16ms)
+ GET / 200 in 107ms (next.js: 61ms, application-code: 46ms)
+ GET / 200 in 34ms (next.js: 2ms, application-code: 32ms)
+ GET / 200 in 107ms (next.js: 61ms, application-code: 47ms)
+ GET / 200 in 18ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 123ms (next.js: 58ms, application-code: 65ms)
+ GET / 200 in 40ms (next.js: 3ms, application-code: 36ms)
+ GET / 200 in 120ms (next.js: 66ms, application-code: 54ms)
+ GET / 200 in 28ms (next.js: 3ms, application-code: 25ms)
+ GET / 200 in 124ms (next.js: 57ms, application-code: 67ms)
+ GET / 200 in 38ms (next.js: 3ms, application-code: 36ms)
+ GET / 200 in 93ms (next.js: 53ms, application-code: 40ms)
+ GET / 200 in 17ms (next.js: 1835µs, application-code: 15ms)
+ GET / 200 in 111ms (next.js: 65ms, application-code: 45ms)
+ GET / 200 in 25ms (next.js: 3ms, application-code: 23ms)
+ GET / 200 in 106ms (next.js: 56ms, application-code: 49ms)
+ GET / 200 in 18ms (next.js: 1831µs, application-code: 17ms)
+ GET / 200 in 137ms (next.js: 73ms, application-code: 64ms)
+ GET / 200 in 28ms (next.js: 3ms, application-code: 25ms)
+ GET / 200 in 94ms (next.js: 54ms, application-code: 40ms)
+ GET / 200 in 18ms (next.js: 2ms, application-code: 15ms)
+ GET / 200 in 100ms (next.js: 55ms, application-code: 45ms)
+ GET / 200 in 22ms (next.js: 1823µs, application-code: 20ms)
+ GET / 200 in 106ms (next.js: 59ms, application-code: 47ms)
+ GET / 200 in 20ms (next.js: 1867µs, application-code: 18ms)
+ GET / 200 in 114ms (next.js: 67ms, application-code: 47ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 134ms (next.js: 56ms, application-code: 79ms)
+ GET / 200 in 48ms (next.js: 4ms, application-code: 44ms)
+ GET / 200 in 92ms (next.js: 54ms, application-code: 38ms)
+ GET / 200 in 17ms (next.js: 1802µs, application-code: 16ms)
+ GET / 200 in 103ms (next.js: 62ms, application-code: 40ms)
+ GET / 200 in 18ms (next.js: 1831µs, application-code: 16ms)
+ GET / 200 in 93ms (next.js: 55ms, application-code: 39ms)
+ GET / 200 in 17ms (next.js: 1751µs, application-code: 16ms)
+ GET / 200 in 117ms (next.js: 69ms, application-code: 47ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 116ms (next.js: 54ms, application-code: 61ms)
+ GET / 200 in 24ms (next.js: 2ms, application-code: 22ms)
+ GET / 200 in 110ms (next.js: 66ms, application-code: 44ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 97ms (next.js: 56ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1768µs, application-code: 16ms)
+ GET / 200 in 100ms (next.js: 58ms, application-code: 42ms)
+ GET / 200 in 20ms (next.js: 1851µs, application-code: 18ms)
+ GET / 200 in 100ms (next.js: 59ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1852µs, application-code: 16ms)
+ GET / 200 in 107ms (next.js: 60ms, application-code: 47ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET / 200 in 137ms (next.js: 67ms, application-code: 70ms)
+ GET / 200 in 37ms (next.js: 3ms, application-code: 35ms)
+ GET / 200 in 95ms (next.js: 55ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1980µs, application-code: 16ms)
+ GET / 200 in 125ms (next.js: 56ms, application-code: 70ms)
+ GET / 200 in 46ms (next.js: 3ms, application-code: 43ms)
+ GET / 200 in 94ms (next.js: 54ms, application-code: 40ms)
+ GET / 200 in 18ms (next.js: 1803µs, application-code: 16ms)
+ GET / 200 in 98ms (next.js: 57ms, application-code: 41ms)
+ GET / 200 in 19ms (next.js: 1957µs, application-code: 17ms)
+ GET / 200 in 113ms (next.js: 63ms, application-code: 50ms)
+ GET / 200 in 20ms (next.js: 1785µs, application-code: 18ms)
+ GET / 200 in 121ms (next.js: 58ms, application-code: 63ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 27ms)
+ GET / 200 in 118ms (next.js: 75ms, application-code: 42ms)
+ GET / 200 in 22ms (next.js: 1882µs, application-code: 21ms)
+ GET / 200 in 101ms (next.js: 57ms, application-code: 43ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 114ms (next.js: 61ms, application-code: 53ms)
+ GET / 200 in 24ms (next.js: 1875µs, application-code: 22ms)
+ GET / 200 in 125ms (next.js: 67ms, application-code: 57ms)
+ GET / 200 in 48ms (next.js: 4ms, application-code: 44ms)
+ GET / 200 in 99ms (next.js: 57ms, application-code: 42ms)
+ GET / 200 in 19ms (next.js: 1897µs, application-code: 17ms)
+ GET / 200 in 115ms (next.js: 60ms, application-code: 54ms)
+ GET / 200 in 36ms (next.js: 3ms, application-code: 33ms)
+ GET / 200 in 92ms (next.js: 53ms, application-code: 40ms)
+ GET / 200 in 17ms (next.js: 1834µs, application-code: 16ms)
+ GET / 200 in 103ms (next.js: 58ms, application-code: 45ms)
+ GET / 200 in 23ms (next.js: 1964µs, application-code: 21ms)
+ GET / 200 in 105ms (next.js: 55ms, application-code: 49ms)
+ GET / 200 in 21ms (next.js: 1875µs, application-code: 19ms)
+ GET / 200 in 122ms (next.js: 60ms, application-code: 62ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 113ms (next.js: 67ms, application-code: 46ms)
+ GET / 200 in 18ms (next.js: 1782µs, application-code: 16ms)
+ GET / 200 in 93ms (next.js: 53ms, application-code: 40ms)
+ GET / 200 in 18ms (next.js: 1970µs, application-code: 17ms)
+✓ Compiled in 46ms
+ GET / 200 in 652ms (next.js: 459ms, application-code: 192ms)
+ GET / 200 in 40ms (next.js: 5ms, application-code: 35ms)
+ GET / 200 in 192ms (next.js: 96ms, application-code: 96ms)
+ GET / 200 in 54ms (next.js: 5ms, application-code: 50ms)
+ GET / 200 in 376ms (next.js: 85ms, application-code: 291ms)
+ GET / 200 in 57ms (next.js: 23ms, application-code: 34ms)
+ GET / 200 in 111ms (next.js: 68ms, application-code: 43ms)
+ GET / 200 in 19ms (next.js: 1880µs, application-code: 17ms)
+ GET / 200 in 102ms (next.js: 60ms, application-code: 42ms)
+ GET / 200 in 19ms (next.js: 1796µs, application-code: 17ms)
+ GET / 200 in 239ms (next.js: 167ms, application-code: 72ms)
+ GET / 200 in 59ms (next.js: 1892µs, application-code: 57ms)
+ GET / 200 in 38ms (next.js: 2ms, application-code: 36ms)
+ GET / 200 in 38ms (next.js: 21ms, application-code: 17ms)
+ GET / 200 in 152ms (next.js: 79ms, application-code: 74ms)
+ GET / 200 in 32ms (next.js: 3ms, application-code: 28ms)
+ GET / 200 in 152ms (next.js: 2ms, application-code: 150ms)
+✓ Compiled in 28ms
+ GET / 200 in 158ms (next.js: 96ms, application-code: 61ms)
+ GET / 200 in 27ms (next.js: 2ms, application-code: 25ms)
+ GET / 200 in 128ms (next.js: 75ms, application-code: 52ms)
+ GET / 200 in 26ms (next.js: 2ms, application-code: 24ms)
+ GET / 200 in 135ms (next.js: 74ms, application-code: 61ms)
+ GET / 200 in 31ms (next.js: 3ms, application-code: 28ms)
+ GET / 200 in 122ms (next.js: 75ms, application-code: 47ms)
+ GET / 200 in 21ms (next.js: 1993µs, application-code: 19ms)
+ GET / 200 in 128ms (next.js: 74ms, application-code: 54ms)
+ GET / 200 in 28ms (next.js: 3ms, application-code: 25ms)
+ GET / 200 in 149ms (next.js: 100ms, application-code: 49ms)
+ GET / 200 in 22ms (next.js: 1878µs, application-code: 20ms)
+ GET / 200 in 154ms (next.js: 78ms, application-code: 75ms)
+ GET / 200 in 52ms (next.js: 3ms, application-code: 49ms)
+ GET / 200 in 131ms (next.js: 74ms, application-code: 56ms)
+ GET / 200 in 26ms (next.js: 2ms, application-code: 24ms)
+ GET / 200 in 120ms (next.js: 72ms, application-code: 48ms)
+ GET / 200 in 23ms (next.js: 1846µs, application-code: 21ms)
+ GET / 200 in 121ms (next.js: 74ms, application-code: 47ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 134ms (next.js: 74ms, application-code: 59ms)
+ GET / 200 in 36ms (next.js: 1830µs, application-code: 34ms)
+ GET / 200 in 136ms (next.js: 90ms, application-code: 46ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET / 200 in 125ms (next.js: 80ms, application-code: 45ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 143ms (next.js: 74ms, application-code: 68ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 129ms (next.js: 79ms, application-code: 50ms)
+ GET / 200 in 21ms (next.js: 1889µs, application-code: 19ms)
+ GET / 200 in 123ms (next.js: 79ms, application-code: 43ms)
+ GET / 200 in 19ms (next.js: 1900µs, application-code: 17ms)
+ GET / 200 in 126ms (next.js: 72ms, application-code: 54ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 137ms (next.js: 80ms, application-code: 58ms)
+ GET / 200 in 37ms (next.js: 3ms, application-code: 34ms)
+ GET / 200 in 125ms (next.js: 77ms, application-code: 47ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 207ms (next.js: 133ms, application-code: 74ms)
+ GET / 200 in 39ms (next.js: 1928µs, application-code: 37ms)
+ GET / 200 in 148ms (next.js: 78ms, application-code: 70ms)
+ GET / 200 in 40ms (next.js: 2ms, application-code: 38ms)
+ GET / 200 in 188ms (next.js: 85ms, application-code: 103ms)
+ GET / 200 in 39ms (next.js: 3ms, application-code: 36ms)
+✓ Compiled in 575ms
+ GET / 200 in 364ms (next.js: 234ms, application-code: 131ms)
+ GET / 200 in 154ms (next.js: 100ms, application-code: 55ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 23ms)
+ GET / 200 in 149ms (next.js: 77ms, application-code: 72ms)
+ GET / 200 in 36ms (next.js: 3ms, application-code: 33ms)
+ GET / 200 in 123ms (next.js: 79ms, application-code: 44ms)
+ GET / 200 in 20ms (next.js: 1795µs, application-code: 18ms)
+ GET / 200 in 117ms (next.js: 77ms, application-code: 41ms)
+ GET / 200 in 20ms (next.js: 1922µs, application-code: 19ms)
+✓ Compiled in 127ms
+✓ Compiled in 102ms
+✓ Compiled in 420ms
+ GET / 200 in 1187ms (next.js: 747ms, application-code: 440ms)
+ GET / 200 in 737ms (next.js: 127ms, application-code: 610ms)
+ GET / 200 in 576ms (next.js: 34ms, application-code: 542ms)
+ GET / 200 in 578ms (next.js: 4ms, application-code: 574ms)
+ GET / 200 in 583ms (next.js: 62ms, application-code: 521ms)
+ GET / 200 in 587ms (next.js: 94ms, application-code: 493ms)
+ GET / 200 in 181ms (next.js: 90ms, application-code: 92ms)
+ GET / 200 in 60ms (next.js: 2ms, application-code: 58ms)
+ GET / 200 in 34ms (next.js: 5ms, application-code: 28ms)
+ GET / 200 in 134ms (next.js: 79ms, application-code: 55ms)
+ GET / 200 in 45ms (next.js: 3ms, application-code: 42ms)
+ GET / 200 in 26ms (next.js: 7ms, application-code: 19ms)
+ GET / 200 in 148ms (next.js: 78ms, application-code: 71ms)
+ GET / 200 in 63ms (next.js: 3ms, application-code: 61ms)
+ GET / 200 in 35ms (next.js: 7ms, application-code: 28ms)
+ GET / 200 in 168ms (next.js: 76ms, application-code: 92ms)
+ GET / 200 in 44ms (next.js: 1968µs, application-code: 42ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 23ms)
+ GET / 200 in 128ms (next.js: 78ms, application-code: 51ms)
+ GET / 200 in 56ms (next.js: 3ms, application-code: 53ms)
+ GET / 200 in 38ms (next.js: 3ms, application-code: 35ms)
+ GET / 200 in 148ms (next.js: 76ms, application-code: 72ms)
+ GET / 200 in 38ms (next.js: 2ms, application-code: 36ms)
+ GET / 200 in 21ms (next.js: 5ms, application-code: 16ms)
+ GET / 200 in 143ms (next.js: 78ms, application-code: 65ms)
+ GET / 200 in 44ms (next.js: 1824µs, application-code: 42ms)
+ GET / 200 in 27ms (next.js: 3ms, application-code: 24ms)
+ GET / 200 in 138ms (next.js: 74ms, application-code: 65ms)
+ GET / 200 in 38ms (next.js: 1937µs, application-code: 36ms)
+ GET / 200 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET / 200 in 137ms (next.js: 84ms, application-code: 53ms)
+ GET / 200 in 41ms (next.js: 1950µs, application-code: 39ms)
+ GET / 200 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET / 200 in 118ms (next.js: 75ms, application-code: 43ms)
+ GET / 200 in 35ms (next.js: 1985µs, application-code: 33ms)
+ GET / 200 in 19ms (next.js: 3ms, application-code: 16ms)
+ GET / 200 in 144ms (next.js: 72ms, application-code: 72ms)
+ GET / 200 in 38ms (next.js: 2ms, application-code: 36ms)
+ GET / 200 in 21ms (next.js: 1935µs, application-code: 19ms)
+ GET / 200 in 98ms (next.js: 60ms, application-code: 38ms)
+ GET / 200 in 43ms (next.js: 1762µs, application-code: 41ms)
+ GET / 200 in 26ms (next.js: 4ms, application-code: 22ms)
+ GET / 200 in 127ms (next.js: 67ms, application-code: 60ms)
+ GET / 200 in 38ms (next.js: 1988µs, application-code: 36ms)
+ GET / 200 in 21ms (next.js: 5ms, application-code: 16ms)
+✓ Compiled in 51ms
+ GET / 200 in 203ms (next.js: 142ms, application-code: 61ms)
+ GET / 200 in 57ms (next.js: 1890µs, application-code: 55ms)
+ GET / 200 in 37ms (next.js: 2ms, application-code: 34ms)
+ GET / 200 in 103ms (next.js: 62ms, application-code: 42ms)
+ GET / 200 in 44ms (next.js: 2ms, application-code: 42ms)
+ GET / 200 in 24ms (next.js: 3ms, application-code: 21ms)
+✓ Compiled in 33ms
+ GET / 200 in 165ms (next.js: 97ms, application-code: 68ms)
+ GET / 200 in 56ms (next.js: 4ms, application-code: 52ms)
+ GET / 200 in 25ms (next.js: 5ms, application-code: 20ms)
+ GET / 200 in 102ms (next.js: 61ms, application-code: 41ms)
+ GET / 200 in 38ms (next.js: 6ms, application-code: 32ms)
+ GET / 200 in 18ms (next.js: 3ms, application-code: 16ms)
+ GET / 200 in 132ms (next.js: 61ms, application-code: 71ms)
+ GET / 200 in 38ms (next.js: 2ms, application-code: 36ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 529ms (next.js: 455ms, application-code: 74ms)
+ GET / 200 in 51ms (next.js: 3ms, application-code: 49ms)
+ GET / 200 in 27ms (next.js: 3ms, application-code: 25ms)
+ GET / 200 in 223ms (next.js: 92ms, application-code: 131ms)
+ GET / 200 in 83ms (next.js: 7ms, application-code: 76ms)
+ GET / 200 in 30ms (next.js: 4ms, application-code: 26ms)
+ GET / 200 in 126ms (next.js: 86ms, application-code: 40ms)
+ GET / 200 in 40ms (next.js: 3ms, application-code: 37ms)
+ GET / 200 in 22ms (next.js: 4ms, application-code: 18ms)
+ GET / 200 in 126ms (next.js: 61ms, application-code: 64ms)
+ GET / 200 in 47ms (next.js: 2ms, application-code: 45ms)
+ GET / 200 in 27ms (next.js: 3ms, application-code: 24ms)
+ GET / 200 in 210ms (next.js: 69ms, application-code: 141ms)
+ GET / 200 in 85ms (next.js: 20ms, application-code: 65ms)
+ GET / 200 in 32ms (next.js: 3ms, application-code: 30ms)
+ GET / 200 in 138ms (next.js: 62ms, application-code: 76ms)
+ GET / 200 in 44ms (next.js: 1946µs, application-code: 43ms)
+ GET / 200 in 24ms (next.js: 3ms, application-code: 21ms)
+ GET / 200 in 115ms (next.js: 61ms, application-code: 54ms)
+ GET / 200 in 35ms (next.js: 1710µs, application-code: 34ms)
+ GET / 200 in 18ms (next.js: 1667µs, application-code: 17ms)
+ GET / 200 in 136ms (next.js: 73ms, application-code: 63ms)
+ GET / 200 in 43ms (next.js: 2ms, application-code: 41ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET / 200 in 229ms (next.js: 116ms, application-code: 113ms)
+ GET / 200 in 78ms (next.js: 2ms, application-code: 75ms)
+ GET / 200 in 51ms (next.js: 3ms, application-code: 48ms)
+ GET / 200 in 131ms (next.js: 62ms, application-code: 69ms)
+ GET / 200 in 45ms (next.js: 3ms, application-code: 41ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 136ms (next.js: 72ms, application-code: 63ms)
+ GET / 200 in 48ms (next.js: 1775µs, application-code: 46ms)
+ GET / 200 in 28ms (next.js: 3ms, application-code: 25ms)
+ GET / 200 in 149ms (next.js: 61ms, application-code: 89ms)
+ GET / 200 in 65ms (next.js: 4ms, application-code: 60ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET / 200 in 125ms (next.js: 60ms, application-code: 65ms)
+ GET / 200 in 46ms (next.js: 1868µs, application-code: 44ms)
+ GET / 200 in 30ms (next.js: 3ms, application-code: 27ms)
+ GET / 200 in 115ms (next.js: 62ms, application-code: 53ms)
+ GET / 200 in 42ms (next.js: 1973µs, application-code: 40ms)
+ GET / 200 in 23ms (next.js: 6ms, application-code: 18ms)
+ GET / 200 in 132ms (next.js: 60ms, application-code: 72ms)
+ GET / 200 in 72ms (next.js: 7ms, application-code: 65ms)
+ GET / 200 in 45ms (next.js: 6ms, application-code: 39ms)
+ GET / 200 in 106ms (next.js: 66ms, application-code: 39ms)
+ GET / 200 in 36ms (next.js: 1771µs, application-code: 35ms)
+ GET / 200 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET / 200 in 99ms (next.js: 62ms, application-code: 37ms)
+ GET / 200 in 36ms (next.js: 2ms, application-code: 34ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 16ms)
+ GET / 200 in 112ms (next.js: 69ms, application-code: 43ms)
+ GET / 200 in 46ms (next.js: 3ms, application-code: 43ms)
+ GET / 200 in 28ms (next.js: 3ms, application-code: 25ms)
+ GET / 200 in 163ms (next.js: 78ms, application-code: 85ms)
+ GET / 200 in 43ms (next.js: 3ms, application-code: 40ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 173ms (next.js: 67ms, application-code: 107ms)
+ GET / 200 in 83ms (next.js: 3ms, application-code: 80ms)
+ GET / 200 in 58ms (next.js: 35ms, application-code: 23ms)
+ GET / 200 in 121ms (next.js: 60ms, application-code: 61ms)
+ GET / 200 in 37ms (next.js: 2ms, application-code: 35ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 109ms (next.js: 62ms, application-code: 47ms)
+ GET / 200 in 41ms (next.js: 1917µs, application-code: 39ms)
+ GET / 200 in 21ms (next.js: 5ms, application-code: 17ms)
+ GET / 200 in 89ms (next.js: 70ms, application-code: 19ms)
+ GET / 200 in 48ms (next.js: 4ms, application-code: 43ms)
+ GET / 200 in 30ms (next.js: 1991µs, application-code: 28ms)
+ GET / 200 in 114ms (next.js: 61ms, application-code: 53ms)
+ GET / 200 in 35ms (next.js: 1713µs, application-code: 34ms)
+ GET / 200 in 20ms (next.js: 1861µs, application-code: 18ms)
+ GET / 200 in 103ms (next.js: 65ms, application-code: 38ms)
+ GET / 200 in 55ms (next.js: 1897µs, application-code: 53ms)
+ GET / 200 in 39ms (next.js: 3ms, application-code: 36ms)
+ GET / 200 in 119ms (next.js: 60ms, application-code: 59ms)
+ GET / 200 in 40ms (next.js: 1822µs, application-code: 38ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET / 200 in 115ms (next.js: 61ms, application-code: 54ms)
+ GET / 200 in 36ms (next.js: 1928µs, application-code: 34ms)
+ GET / 200 in 20ms (next.js: 1897µs, application-code: 18ms)
+ GET / 200 in 99ms (next.js: 63ms, application-code: 37ms)
+ GET / 200 in 18ms (next.js: 1744µs, application-code: 16ms)
+ GET / 200 in 114ms (next.js: 58ms, application-code: 56ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 105ms (next.js: 66ms, application-code: 40ms)
+ GET / 200 in 24ms (next.js: 3ms, application-code: 21ms)
+✓ Compiled in 618ms
+ GET / 200 in 63ms (next.js: 5ms, application-code: 58ms)
+ GET / 200 in 30ms (next.js: 5ms, application-code: 25ms)
+✓ Compiled in 29ms
+✓ Compiled in 495ms
+ GET / 200 in 40ms (next.js: 3ms, application-code: 37ms)
+ GET / 200 in 23ms (next.js: 1997µs, application-code: 21ms)
+✓ Compiled in 82ms
+✓ Compiled in 33ms
+ GET / 200 in 66ms (next.js: 4ms, application-code: 62ms)
+ GET / 200 in 34ms (next.js: 5ms, application-code: 29ms)
+✓ Compiled in 74ms
+✓ Compiled in 66ms
+✓ Compiled in 26ms
+✓ Compiled in 514ms
+ GET / 200 in 56ms (next.js: 3ms, application-code: 53ms)
+ GET / 200 in 34ms (next.js: 2ms, application-code: 31ms)
+ GET / 200 in 107ms (next.js: 65ms, application-code: 43ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 110ms (next.js: 57ms, application-code: 54ms)
+ GET / 200 in 24ms (next.js: 3ms, application-code: 21ms)
+ GET / 200 in 118ms (next.js: 66ms, application-code: 52ms)
+ GET / 200 in 27ms (next.js: 3ms, application-code: 24ms)
+ GET / 200 in 107ms (next.js: 66ms, application-code: 41ms)
+ GET / 200 in 22ms (next.js: 1857µs, application-code: 20ms)
+ GET / 200 in 181ms (next.js: 62ms, application-code: 119ms)
+ GET / 200 in 77ms (next.js: 2ms, application-code: 75ms)
+ GET / 200 in 54ms (next.js: 3ms, application-code: 51ms)
+ GET / 200 in 106ms (next.js: 64ms, application-code: 42ms)
+ GET / 200 in 40ms (next.js: 1729µs, application-code: 38ms)
+ GET / 200 in 25ms (next.js: 6ms, application-code: 19ms)
+ GET / 200 in 103ms (next.js: 65ms, application-code: 38ms)
+ GET / 200 in 37ms (next.js: 1756µs, application-code: 35ms)
+ GET / 200 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET / 200 in 104ms (next.js: 64ms, application-code: 40ms)
+ GET / 200 in 41ms (next.js: 3ms, application-code: 38ms)
+ GET / 200 in 23ms (next.js: 6ms, application-code: 18ms)
+ GET / 200 in 149ms (next.js: 87ms, application-code: 62ms)
+ GET / 200 in 44ms (next.js: 3ms, application-code: 41ms)
+ GET / 200 in 24ms (next.js: 5ms, application-code: 18ms)
+ GET / 200 in 105ms (next.js: 66ms, application-code: 39ms)
+ GET / 200 in 41ms (next.js: 1734µs, application-code: 39ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET / 200 in 146ms (next.js: 68ms, application-code: 78ms)
+ GET / 200 in 75ms (next.js: 3ms, application-code: 71ms)
+ GET / 200 in 48ms (next.js: 5ms, application-code: 43ms)
+ GET / 200 in 121ms (next.js: 63ms, application-code: 58ms)
+ GET / 200 in 35ms (next.js: 1862µs, application-code: 34ms)
+ GET / 200 in 19ms (next.js: 1875µs, application-code: 17ms)
+ GET / 200 in 122ms (next.js: 81ms, application-code: 40ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 124ms (next.js: 78ms, application-code: 46ms)
+ GET / 200 in 28ms (next.js: 1932µs, application-code: 26ms)
+ GET / 200 in 159ms (next.js: 75ms, application-code: 84ms)
+ GET / 200 in 40ms (next.js: 6ms, application-code: 33ms)
+ GET / 200 in 102ms (next.js: 60ms, application-code: 42ms)
+ GET / 200 in 21ms (next.js: 1906µs, application-code: 19ms)
+ GET / 200 in 135ms (next.js: 70ms, application-code: 66ms)
+ GET / 200 in 109ms (next.js: 4ms, application-code: 104ms)
+ GET / 200 in 119ms (next.js: 74ms, application-code: 46ms)
+ GET / 200 in 19ms (next.js: 1808µs, application-code: 17ms)
+ GET / 200 in 102ms (next.js: 64ms, application-code: 38ms)
+ GET / 200 in 19ms (next.js: 1897µs, application-code: 17ms)
+ GET / 200 in 109ms (next.js: 67ms, application-code: 42ms)
+ GET / 200 in 24ms (next.js: 4ms, application-code: 20ms)
+ GET / 500 in 93ms (next.js: 55ms, application-code: 38ms)
+ GET / 500 in 20ms (next.js: 10ms, application-code: 10ms)
+ GET / 200 in 426ms (next.js: 68ms, application-code: 358ms)
+ GET / 200 in 47ms (next.js: 1919µs, application-code: 45ms)
+ GET / 200 in 131ms (next.js: 84ms, application-code: 47ms)
+ GET / 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 108ms (next.js: 68ms, application-code: 40ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 95ms (next.js: 58ms, application-code: 38ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 129ms (next.js: 66ms, application-code: 63ms)
+ GET / 200 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET / 200 in 116ms (next.js: 68ms, application-code: 48ms)
+ GET / 200 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET / 200 in 105ms (next.js: 63ms, application-code: 42ms)
+ GET / 200 in 20ms (next.js: 1790µs, application-code: 18ms)
+ GET / 200 in 97ms (next.js: 62ms, application-code: 35ms)
+ GET / 200 in 17ms (next.js: 1693µs, application-code: 15ms)
+ GET / 200 in 99ms (next.js: 62ms, application-code: 37ms)
+ GET / 200 in 19ms (next.js: 1757µs, application-code: 17ms)
+ GET / 200 in 120ms (next.js: 67ms, application-code: 53ms)
+ GET / 200 in 35ms (next.js: 1772µs, application-code: 34ms)
+ GET / 200 in 95ms (next.js: 59ms, application-code: 36ms)
+ GET / 200 in 18ms (next.js: 1726µs, application-code: 16ms)
+ GET / 200 in 112ms (next.js: 67ms, application-code: 45ms)
+ GET / 200 in 27ms (next.js: 3ms, application-code: 24ms)
+ GET / 200 in 108ms (next.js: 60ms, application-code: 48ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 125ms (next.js: 69ms, application-code: 55ms)
+ GET / 200 in 30ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 107ms (next.js: 70ms, application-code: 37ms)
+ GET / 200 in 20ms (next.js: 1743µs, application-code: 18ms)
+ GET / 200 in 128ms (next.js: 69ms, application-code: 60ms)
+ GET / 200 in 39ms (next.js: 3ms, application-code: 37ms)
+ GET / 200 in 93ms (next.js: 57ms, application-code: 36ms)
+ GET / 200 in 20ms (next.js: 1778µs, application-code: 18ms)
+ GET / 200 in 99ms (next.js: 60ms, application-code: 39ms)
+ GET / 200 in 20ms (next.js: 1820µs, application-code: 18ms)
+ GET / 200 in 107ms (next.js: 66ms, application-code: 41ms)
+ GET / 200 in 19ms (next.js: 1758µs, application-code: 17ms)
+ GET / 200 in 168ms (next.js: 107ms, application-code: 61ms)
+ GET / 200 in 31ms (next.js: 1952µs, application-code: 29ms)
+ GET / 200 in 106ms (next.js: 69ms, application-code: 37ms)
+ GET / 200 in 19ms (next.js: 1774µs, application-code: 17ms)
+ GET / 200 in 110ms (next.js: 59ms, application-code: 50ms)
+ GET / 200 in 34ms (next.js: 2ms, application-code: 32ms)
+ GET / 200 in 98ms (next.js: 62ms, application-code: 36ms)
+ GET / 200 in 18ms (next.js: 1704µs, application-code: 16ms)
+✓ Compiled in 78ms
+✓ Compiled in 72ms
+✓ Compiled in 61ms
+✓ Compiled in 59ms
+✓ Compiled in 105ms
+✓ Compiled in 57ms
+✓ Compiled in 24ms
+ GET / 200 in 52ms (next.js: 3ms, application-code: 50ms)
+ GET / 200 in 33ms (next.js: 3ms, application-code: 30ms)
+✓ Compiled in 75ms
+ GET / 200 in 97ms (next.js: 2ms, application-code: 95ms)
+ GET / 200 in 32ms (next.js: 1787µs, application-code: 30ms)
+ GET / 200 in 35ms (next.js: 2ms, application-code: 33ms)
+ GET / 200 in 44ms (next.js: 1956µs, application-code: 42ms)
+ GET / 200 in 31ms (next.js: 1818µs, application-code: 29ms)
+ GET / 200 in 41ms (next.js: 5ms, application-code: 37ms)
+ GET / 200 in 40ms (next.js: 4ms, application-code: 36ms)
+ GET / 200 in 46ms (next.js: 4ms, application-code: 42ms)
+ GET / 200 in 56ms (next.js: 4ms, application-code: 52ms)
+ GET / 200 in 54ms (next.js: 3ms, application-code: 51ms)
+ GET / 200 in 56ms (next.js: 3ms, application-code: 53ms)
+ GET / 200 in 46ms (next.js: 1978µs, application-code: 44ms)
+ GET / 200 in 229ms (next.js: 149ms, application-code: 80ms)
+ GET / 200 in 35ms (next.js: 4ms, application-code: 31ms)
+ GET /anner.jpeg 404 in 625ms (next.js: 153ms, application-code: 472ms)
+ GET / 200 in 280ms (next.js: 186ms, application-code: 94ms)
+ GET / 200 in 58ms (next.js: 3ms, application-code: 55ms)
+ GET / 200 in 102ms (next.js: 2ms, application-code: 100ms)
+ GET / 200 in 48ms (next.js: 5ms, application-code: 43ms)
+✓ Compiled in 233ms
+ GET / 200 in 211ms (next.js: 133ms, application-code: 78ms)
+ GET / 200 in 56ms (next.js: 3ms, application-code: 54ms)
+ GET / 200 in 30ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 147ms (next.js: 5ms, application-code: 142ms)
+ GET / 200 in 327ms (next.js: 104ms, application-code: 223ms)
+ GET / 200 in 118ms (next.js: 4ms, application-code: 114ms)
+ GET / 200 in 70ms (next.js: 8ms, application-code: 62ms)
+ GET / 200 in 81ms (next.js: 1865µs, application-code: 79ms)
+ GET / 200 in 36ms (next.js: 2ms, application-code: 34ms)
+ GET / 200 in 35ms (next.js: 1710µs, application-code: 33ms)
+ GET / 200 in 39ms (next.js: 1877µs, application-code: 37ms)
+ GET / 200 in 57ms (next.js: 3ms, application-code: 54ms)
+ GET / 200 in 146ms (next.js: 83ms, application-code: 64ms)
+ GET / 200 in 40ms (next.js: 3ms, application-code: 37ms)
+ GET / 200 in 18ms (next.js: 1842µs, application-code: 16ms)
+ GET / 200 in 180ms (next.js: 74ms, application-code: 106ms)
+ GET / 200 in 72ms (next.js: 3ms, application-code: 69ms)
+ GET / 200 in 40ms (next.js: 3ms, application-code: 37ms)
+ GET / 200 in 184ms (next.js: 2ms, application-code: 181ms)
+ GET / 200 in 38ms (next.js: 1905µs, application-code: 36ms)
+ GET / 200 in 126ms (next.js: 72ms, application-code: 54ms)
+ GET / 200 in 54ms (next.js: 2ms, application-code: 52ms)
+ GET / 200 in 31ms (next.js: 6ms, application-code: 25ms)
+ GET / 200 in 213ms (next.js: 82ms, application-code: 131ms)
+ GET / 200 in 94ms (next.js: 3ms, application-code: 90ms)
+ GET / 200 in 26ms (next.js: 2ms, application-code: 24ms)
+ GET / 200 in 100ms (next.js: 59ms, application-code: 41ms)
+ GET / 200 in 37ms (next.js: 2ms, application-code: 35ms)
+ GET / 200 in 20ms (next.js: 4ms, application-code: 16ms)
+ GET / 200 in 101ms (next.js: 62ms, application-code: 39ms)
+ GET / 200 in 38ms (next.js: 1762µs, application-code: 36ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 18ms)
+ GET / 200 in 107ms (next.js: 67ms, application-code: 40ms)
+ GET / 200 in 51ms (next.js: 2ms, application-code: 49ms)
+ GET / 200 in 33ms (next.js: 3ms, application-code: 30ms)
+ GET / 500 in 54ms (next.js: 33ms, application-code: 20ms)
+ GET / 500 in 17ms (next.js: 10ms, application-code: 7ms)
+ GET / 200 in 40ms (next.js: 2ms, application-code: 38ms)
+✓ Compiled in 30ms
+ GET / 200 in 160ms (next.js: 97ms, application-code: 63ms)
+ GET / 200 in 40ms (next.js: 2ms, application-code: 38ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 129ms (next.js: 68ms, application-code: 61ms)
+ GET / 200 in 53ms (next.js: 3ms, application-code: 50ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET / 500 in 31ms (next.js: 22ms, application-code: 9ms)
+ GET / 500 in 26ms (next.js: 19ms, application-code: 7ms)
+ GET / 500 in 37ms (next.js: 26ms, application-code: 11ms)
+ GET / 500 in 79ms (next.js: 34ms, application-code: 45ms)
+ GET / 500 in 26ms (next.js: 19ms, application-code: 7ms)
+ GET / 500 in 47ms (next.js: 1865µs, application-code: 45ms)
+ GET / 200 in 167ms (next.js: 66ms, application-code: 101ms)
+ GET / 200 in 199ms (next.js: 58ms, application-code: 140ms)
+ GET / 200 in 53ms (next.js: 1968µs, application-code: 51ms)
+ GET / 200 in 27ms (next.js: 2ms, application-code: 25ms)
+ GET / 500 in 207ms (next.js: 67ms, application-code: 140ms)
+ GET / 500 in 168ms (next.js: 62ms, application-code: 106ms)
+ GET / 500 in 184ms (next.js: 63ms, application-code: 121ms)
+ GET / 500 in 198ms (next.js: 67ms, application-code: 131ms)
+ GET / 500 in 191ms (next.js: 68ms, application-code: 124ms)
+ GET / 500 in 214ms (next.js: 61ms, application-code: 153ms)
+ GET / 500 in 164ms (next.js: 60ms, application-code: 105ms)
+ GET / 500 in 191ms (next.js: 71ms, application-code: 120ms)
+✓ Compiled in 21ms
+ GET / 500 in 163ms (next.js: 59ms, application-code: 104ms)
+ GET / 500 in 217ms (next.js: 74ms, application-code: 144ms)
+ GET / 500 in 186ms (next.js: 65ms, application-code: 121ms)
+ GET / 500 in 155ms (next.js: 59ms, application-code: 96ms)
+ GET / 500 in 44ms (next.js: 36ms, application-code: 8ms)
+ GET / 500 in 30ms (next.js: 22ms, application-code: 9ms)
+ GET / 500 in 28ms (next.js: 21ms, application-code: 7ms)
+ GET / 500 in 101ms (next.js: 3ms, application-code: 99ms)
+ GET / 500 in 200ms (next.js: 73ms, application-code: 127ms)
+ GET / 500 in 27ms (next.js: 19ms, application-code: 8ms)
+ GET / 500 in 91ms (next.js: 4ms, application-code: 88ms)
+ GET / 500 in 169ms (next.js: 72ms, application-code: 98ms)
+ GET / 500 in 173ms (next.js: 72ms, application-code: 101ms)
+ GET / 500 in 149ms (next.js: 59ms, application-code: 91ms)
+ GET / 200 in 160ms (next.js: 57ms, application-code: 103ms)
+✓ Compiled in 29ms
+ GET / 200 in 117ms (next.js: 57ms, application-code: 60ms)
+ GET / 200 in 38ms (next.js: 1857µs, application-code: 36ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 115ms (next.js: 70ms, application-code: 45ms)
+ GET / 200 in 21ms (next.js: 1893µs, application-code: 19ms)
+ GET / 500 in 48ms (next.js: 41ms, application-code: 7ms)
+ GET / 500 in 13ms (next.js: 5ms, application-code: 7ms)
+ GET / 500 in 32ms (next.js: 23ms, application-code: 9ms)
+ GET / 500 in 85ms (next.js: 4ms, application-code: 81ms)
+✓ Compiled in 28ms
+ GET / 500 in 256ms (next.js: 90ms, application-code: 166ms)
+ GET / 500 in 179ms (next.js: 60ms, application-code: 118ms)
+ GET / 500 in 203ms (next.js: 70ms, application-code: 133ms)
+ GET / 500 in 162ms (next.js: 57ms, application-code: 105ms)
+ GET / 500 in 34ms (next.js: 27ms, application-code: 7ms)
+ GET / 500 in 95ms (next.js: 3ms, application-code: 93ms)
+ GET / 500 in 165ms (next.js: 67ms, application-code: 99ms)
+ GET / 500 in 148ms (next.js: 55ms, application-code: 93ms)
+ GET / 500 in 168ms (next.js: 66ms, application-code: 102ms)
+ GET / 500 in 199ms (next.js: 67ms, application-code: 132ms)
+ GET / 500 in 25ms (next.js: 18ms, application-code: 7ms)
+ GET / 500 in 168ms (next.js: 64ms, application-code: 104ms)
+ GET / 500 in 175ms (next.js: 63ms, application-code: 112ms)
+ GET / 500 in 25ms (next.js: 18ms, application-code: 7ms)
+ GET / 500 in 191ms (next.js: 76ms, application-code: 115ms)
+ GET / 500 in 67ms (next.js: 3ms, application-code: 65ms)
+ GET / 500 in 172ms (next.js: 66ms, application-code: 106ms)
+ GET / 500 in 97ms (next.js: 9ms, application-code: 88ms)
+ GET / 500 in 236ms (next.js: 105ms, application-code: 131ms)
+ GET / 500 in 57ms (next.js: 1926µs, application-code: 55ms)
+ GET / 500 in 190ms (next.js: 76ms, application-code: 114ms)
+ GET / 500 in 157ms (next.js: 60ms, application-code: 97ms)
+✓ Compiled in 42ms
+ GET / 500 in 198ms (next.js: 81ms, application-code: 117ms)
+ GET / 500 in 57ms (next.js: 2ms, application-code: 54ms)
+ GET / 500 in 66ms (next.js: 2ms, application-code: 64ms)
+ GET / 500 in 215ms (next.js: 72ms, application-code: 143ms)
+ GET / 500 in 193ms (next.js: 67ms, application-code: 125ms)
+ GET / 500 in 165ms (next.js: 61ms, application-code: 104ms)
+ GET / 500 in 173ms (next.js: 80ms, application-code: 93ms)
+ GET / 500 in 162ms (next.js: 69ms, application-code: 93ms)
+ GET / 500 in 164ms (next.js: 56ms, application-code: 108ms)
+ GET / 500 in 249ms (next.js: 105ms, application-code: 145ms)
+✓ Compiled in 39ms
+ GET / 500 in 484ms (next.js: 288ms, application-code: 195ms)
+✓ Compiled in 38ms
+ GET / 500 in 258ms (next.js: 91ms, application-code: 167ms)
+ GET / 500 in 81ms (next.js: 1873µs, application-code: 79ms)
+ GET / 500 in 199ms (next.js: 73ms, application-code: 126ms)
+ GET / 500 in 70ms (next.js: 46ms, application-code: 24ms)
+ GET / 500 in 31ms (next.js: 23ms, application-code: 8ms)
+ GET / 500 in 27ms (next.js: 20ms, application-code: 7ms)
+ GET / 500 in 29ms (next.js: 20ms, application-code: 9ms)
+ GET / 500 in 28ms (next.js: 21ms, application-code: 7ms)
+ GET / 500 in 27ms (next.js: 18ms, application-code: 9ms)
+ GET / 500 in 27ms (next.js: 20ms, application-code: 7ms)
+ GET / 500 in 27ms (next.js: 21ms, application-code: 6ms)
+ GET / 500 in 30ms (next.js: 21ms, application-code: 9ms)
+ GET / 500 in 29ms (next.js: 21ms, application-code: 8ms)
+ GET / 500 in 39ms (next.js: 32ms, application-code: 6ms)
+ GET / 500 in 28ms (next.js: 19ms, application-code: 8ms)
+ GET / 500 in 194ms (next.js: 77ms, application-code: 117ms)
+ GET / 500 in 84ms (next.js: 6ms, application-code: 78ms)
+ GET / 500 in 669ms (next.js: 135ms, application-code: 534ms)
+ GET / 500 in 783ms (next.js: 748ms, application-code: 34ms)
+✓ Compiled in 42ms
+✓ Compiled in 34ms
+✓ Compiled in 21ms
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+ GET / 500 in 262ms (next.js: 137ms, application-code: 125ms)
+ GET / 500 in 57ms (next.js: 3ms, application-code: 54ms)
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+ GET / 500 in 196ms (next.js: 78ms, application-code: 118ms)
+✓ Compiled in 28ms
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+ GET / 200 in 189ms (next.js: 95ms, application-code: 94ms)
+ GET / 200 in 57ms (next.js: 5ms, application-code: 52ms)
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+ GET / 200 in 123ms (next.js: 68ms, application-code: 55ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 26ms)
+ GET / 500 in 35ms (next.js: 24ms, application-code: 11ms)
+ GET / 500 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET / 500 in 12ms (next.js: 4ms, application-code: 7ms)
+ GET / 500 in 17ms (next.js: 7ms, application-code: 10ms)
+✓ Compiled in 59ms
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+ GET / 200 in 352ms (next.js: 135ms, application-code: 217ms)
+ GET / 500 in 38ms (next.js: 26ms, application-code: 12ms)
+ GET / 500 in 19ms (next.js: 11ms, application-code: 8ms)
+ GET / 500 in 25ms (next.js: 18ms, application-code: 7ms)
+ GET / 500 in 34ms (next.js: 25ms, application-code: 9ms)
+ GET / 500 in 32ms (next.js: 25ms, application-code: 7ms)
+ GET / 500 in 25ms (next.js: 17ms, application-code: 8ms)
+ GET / 500 in 30ms (next.js: 19ms, application-code: 11ms)
+ GET / 500 in 28ms (next.js: 22ms, application-code: 6ms)
+✓ Compiled in 41ms
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+[
+  {
+    id: 1,
+    title: 'The Silent Forest',
+    author: 'Emma Collins',
+    description: 'A mysterious story about a hidden village inside an ancient forest.',
+    category: 'Story',
+    available_quantity: 12,
+    image_url: 'https://i.ibb.co/PZnR6qpC/silentforest.jpg'
+  },
+  {
+    id: 2,
+    title: 'JavaScript Mastery',
+    author: 'David Miller',
+    description: 'A complete guide to modern JavaScript for beginners and professionals.',
+    category: 'Tech',
+    available_quantity: 8,
+    image_url: 'https://i.ibb.co/M5SYwtgD/Java-Script.jpg'
+  },
+  {
+    id: 3,
+    title: 'The Wonders of Space',
+    author: 'Sophia Turner',
+    description: 'Explore galaxies, planets, and the mysteries of the universe.',
+    category: 'Science',
+    available_quantity: 15,
+    image_url: 'https://i.ibb.co/TM0ktHtt/wonder.webp'
+  },
+  {
+    id: 4,
+    title: 'Lost in Time',
+    author: 'Michael Reed',
+    description: 'A thrilling story of time travel and forgotten memories.',
+    category: 'Story',
+    available_quantity: 10,
+    image_url: 'https://i.ibb.co/G34g3czM/lost-in-time.jpg'
+  },
+  {
+    id: 5,
+    title: 'React in Action',
+    author: 'Sarah Johnson',
+    description: 'Learn how to build dynamic web applications using React.',
+    category: 'Tech',
+    available_quantity: 6,
+    image_url: 'https://i.ibb.co/TMWjS4Wm/react-in-action.jpg'
+  },
+  {
+    id: 6,
+    title: 'Human Body Explained',
+    author: 'Daniel Carter',
+    description: 'A simple and engaging guide to understanding the human body.',
+    category: 'Science',
+    available_quantity: 9,
+    image_url: 'https://i.ibb.co/Mk1wT2ty/human-body.jpg'
+  },
+  {
+    id: 7,
+    title: 'The Last Letter',
+    author: 'Olivia Brown',
+    description: 'A touching story about love, loss, and second chances.',
+    category: 'Story',
+    available_quantity: 14,
+    image_url: 'https://i.ibb.co/qLMdpFvV/lastletter.jpg'
+  },
+  {
+    id: 8,
+    title: 'Python for Everyone',
+    author: 'Chris Wilson',
+    description: 'An easy-to-follow introduction to Python programming.',
+    category: 'Tech',
+    available_quantity: 11,
+    image_url: 'https://i.ibb.co/rGPKB9bd/python.jpg'
+  },
+  {
+    id: 9,
+    title: 'Climate Change Today',
+    author: 'Laura Green',
+    description: 'Understand the science behind global warming and its effects.',
+    category: 'Science',
+    available_quantity: 7,
+    image_url: 'https://i.ibb.co/zhsV0yBk/climate.jpg'
+  },
+  {
+    id: 10,
+    title: 'Whispers of the Night',
+    author: 'Henry Adams',
+    description: 'A suspenseful story filled with secrets and unexpected twists.',
+    category: 'Story',
+    available_quantity: 13,
+    image_url: 'https://i.ibb.co/NnVH0QZ5/the-night.jpg'
+  },
+  {
+    id: 11,
+    title: 'AI and the Future',
+    author: 'Nina Roberts',
+    description: 'Discover how artificial intelligence is shaping tomorrow.',
+    category: 'Tech',
+    available_quantity: 5,
+    image_url: 'https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg'
+  },
+  {
+    id: 12,
+    title: 'Ocean Depths',
+    author: 'James Parker',
+    description: 'Dive deep into the secrets of marine life and ocean ecosystems.',
+    category: 'Science',
+    available_quantity: 16,
+    image_url: 'https://i.ibb.co/DHKszk59/ocean.webp'
+  }
+]
+ GET / 200 in 82ms (next.js: 4ms, application-code: 78ms)
+✓ Compiled in 38ms
+ GET / 200 in 151ms (next.js: 59ms, application-code: 92ms)
+ GET / 200 in 61ms (next.js: 2ms, application-code: 58ms)
+ GET / 200 in 42ms (next.js: 2ms, application-code: 40ms)
+ GET / 200 in 43ms (next.js: 19ms, application-code: 24ms)
+ GET / 200 in 148ms (next.js: 80ms, application-code: 68ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 22ms)
+✓ Compiled in 54ms
+ GET / 200 in 153ms (next.js: 63ms, application-code: 90ms)
+ GET / 200 in 36ms (next.js: 2ms, application-code: 33ms)
+✓ Compiled in 27ms
+ GET / 200 in 171ms (next.js: 116ms, application-code: 56ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 23ms)
+ GET / 500 in 39ms (next.js: 29ms, application-code: 10ms)
+ GET / 500 in 21ms (next.js: 9ms, application-code: 12ms)
+ GET / 200 in 155ms (next.js: 70ms, application-code: 85ms)
+ GET / 200 in 57ms (next.js: 3ms, application-code: 54ms)
+ GET / 200 in 122ms (next.js: 68ms, application-code: 54ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 125ms (next.js: 76ms, application-code: 50ms)
+ GET / 200 in 26ms (next.js: 4ms, application-code: 21ms)
+ GET / 200 in 158ms (next.js: 104ms, application-code: 54ms)
+ GET / 200 in 25ms (next.js: 3ms, application-code: 23ms)
+✓ Compiled in 53ms
+ GET / 200 in 197ms (next.js: 69ms, application-code: 128ms)
+ GET / 200 in 97ms (next.js: 3ms, application-code: 94ms)
+ GET / 200 in 64ms (next.js: 15ms, application-code: 49ms)
+ GET / 200 in 64ms (next.js: 38ms, application-code: 25ms)
+✓ Compiled in 41ms
+ GET / 200 in 98ms (next.js: 57ms, application-code: 41ms)
+ GET / 200 in 89ms (next.js: 6ms, application-code: 84ms)
+ GET / 200 in 65ms (next.js: 4ms, application-code: 62ms)
+ GET / 200 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET / 200 in 99ms (next.js: 55ms, application-code: 44ms)
+ GET / 200 in 21ms (next.js: 3ms, application-code: 17ms)
+ GET / 200 in 103ms (next.js: 61ms, application-code: 43ms)
+ GET / 200 in 22ms (next.js: 1758µs, application-code: 20ms)
+✓ Compiled in 138ms
+ GET / 200 in 110ms (next.js: 65ms, application-code: 44ms)
+ GET / 200 in 23ms (next.js: 3ms, application-code: 21ms)
+ GET / 200 in 132ms (next.js: 71ms, application-code: 62ms)
+ GET / 200 in 29ms (next.js: 2ms, application-code: 27ms)
+ GET / 200 in 137ms (next.js: 73ms, application-code: 64ms)
+ GET / 200 in 33ms (next.js: 4ms, application-code: 29ms)
+ GET / 200 in 113ms (next.js: 4ms, application-code: 109ms)
+ GET / 200 in 96ms (next.js: 58ms, application-code: 38ms)
+ GET / 200 in 19ms (next.js: 2ms, application-code: 17ms)
+ GET / 200 in 144ms (next.js: 75ms, application-code: 69ms)
+ GET / 200 in 34ms (next.js: 4ms, application-code: 29ms)
+ GET / 200 in 104ms (next.js: 54ms, application-code: 50ms)
+ GET / 200 in 30ms (next.js: 1976µs, application-code: 28ms)
+ GET / 200 in 124ms (next.js: 60ms, application-code: 64ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 100ms (next.js: 59ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1703µs, application-code: 16ms)
+ GET / 200 in 133ms (next.js: 68ms, application-code: 65ms)
+ GET / 200 in 45ms (next.js: 2ms, application-code: 42ms)
+ GET / 500 in 43ms (next.js: 25ms, application-code: 18ms)
+ GET / 500 in 25ms (next.js: 12ms, application-code: 13ms)
+ GET / 200 in 153ms (next.js: 77ms, application-code: 77ms)
+ GET / 200 in 68ms (next.js: 5ms, application-code: 63ms)
+ GET / 200 in 42ms (next.js: 3ms, application-code: 39ms)
+ GET / 200 in 107ms (next.js: 59ms, application-code: 47ms)
+ GET / 200 in 25ms (next.js: 1818µs, application-code: 23ms)
+ GET / 200 in 135ms (next.js: 71ms, application-code: 64ms)
+ GET / 200 in 30ms (next.js: 3ms, application-code: 27ms)
+ GET / 200 in 109ms (next.js: 71ms, application-code: 38ms)
+ GET / 200 in 22ms (next.js: 1928µs, application-code: 20ms)
+ GET / 200 in 111ms (next.js: 56ms, application-code: 55ms)
+ GET / 200 in 26ms (next.js: 2ms, application-code: 24ms)
+ GET / 200 in 107ms (next.js: 65ms, application-code: 41ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 91ms (next.js: 54ms, application-code: 37ms)
+ GET / 200 in 20ms (next.js: 1853µs, application-code: 18ms)
+ GET / 200 in 126ms (next.js: 68ms, application-code: 58ms)
+ GET / 200 in 38ms (next.js: 2ms, application-code: 36ms)
+✓ Compiled in 36ms
+ GET / 200 in 108ms (next.js: 83ms, application-code: 25ms)
+ GET / 200 in 24ms (next.js: 5ms, application-code: 19ms)
+ GET / 200 in 74ms (next.js: 4ms, application-code: 70ms)
+ GET / 500 in 33ms (next.js: 24ms, application-code: 9ms)
+ GET / 500 in 15ms (next.js: 7ms, application-code: 8ms)
+ GET / 200 in 237ms (next.js: 101ms, application-code: 135ms)
+ GET / 200 in 62ms (next.js: 8ms, application-code: 54ms)
+ GET / 200 in 110ms (next.js: 63ms, application-code: 47ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 500 in 27ms (next.js: 20ms, application-code: 7ms)
+ GET / 500 in 13ms (next.js: 7ms, application-code: 6ms)
+ GET / 500 in 29ms (next.js: 21ms, application-code: 8ms)
+ GET / 200 in 131ms (next.js: 60ms, application-code: 70ms)
+ GET / 200 in 32ms (next.js: 1833µs, application-code: 31ms)
+ GET / 200 in 96ms (next.js: 57ms, application-code: 40ms)
+ GET / 200 in 19ms (next.js: 1920µs, application-code: 17ms)
+ GET / 200 in 100ms (next.js: 59ms, application-code: 41ms)
+ GET / 200 in 18ms (next.js: 1744µs, application-code: 17ms)
+ GET / 200 in 96ms (next.js: 53ms, application-code: 43ms)
+ GET / 200 in 26ms (next.js: 1854µs, application-code: 24ms)
+ GET / 200 in 119ms (next.js: 77ms, application-code: 42ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 22ms)
+✓ Compiled in 57ms
+ GET / 200 in 190ms (next.js: 145ms, application-code: 46ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 500 in 26ms (next.js: 19ms, application-code: 8ms)
+ GET / 500 in 16ms (next.js: 7ms, application-code: 9ms)
+ GET / 200 in 129ms (next.js: 62ms, application-code: 67ms)
+ GET / 200 in 31ms (next.js: 1815µs, application-code: 30ms)
+ GET / 500 in 37ms (next.js: 28ms, application-code: 9ms)
+ GET / 500 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET / 200 in 36ms (next.js: 2ms, application-code: 34ms)
+ GET / 500 in 37ms (next.js: 28ms, application-code: 9ms)
+ GET / 500 in 18ms (next.js: 10ms, application-code: 8ms)
+✓ Compiled in 49ms
+ GET / 200 in 213ms (next.js: 87ms, application-code: 126ms)
+ GET / 200 in 58ms (next.js: 4ms, application-code: 53ms)
+ GET / 500 in 31ms (next.js: 23ms, application-code: 8ms)
+ GET / 500 in 15ms (next.js: 6ms, application-code: 10ms)
+ GET / 200 in 147ms (next.js: 70ms, application-code: 77ms)
+ GET / 200 in 52ms (next.js: 2ms, application-code: 50ms)
+ GET / 500 in 26ms (next.js: 19ms, application-code: 7ms)
+ GET / 500 in 16ms (next.js: 5ms, application-code: 11ms)
+ GET / 200 in 145ms (next.js: 63ms, application-code: 81ms)
+ GET / 200 in 67ms (next.js: 2ms, application-code: 65ms)
+ GET / 200 in 113ms (next.js: 65ms, application-code: 49ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 23ms)
+✓ Compiled in 48ms
+ GET / 200 in 167ms (next.js: 69ms, application-code: 98ms)
+ GET / 200 in 69ms (next.js: 3ms, application-code: 66ms)
+ GET / 200 in 50ms (next.js: 2ms, application-code: 48ms)
+ GET / 200 in 50ms (next.js: 18ms, application-code: 32ms)
+ GET / 200 in 199ms (next.js: 106ms, application-code: 93ms)
+ GET / 200 in 89ms (next.js: 3ms, application-code: 86ms)
+ GET / 200 in 42ms (next.js: 3ms, application-code: 39ms)
+ GET / 200 in 163ms (next.js: 72ms, application-code: 90ms)
+ GET / 200 in 63ms (next.js: 2ms, application-code: 61ms)
+ GET / 200 in 37ms (next.js: 3ms, application-code: 35ms)
+ GET / 200 in 198ms (next.js: 93ms, application-code: 105ms)
+ GET / 200 in 83ms (next.js: 3ms, application-code: 80ms)
+ GET / 200 in 58ms (next.js: 2ms, application-code: 56ms)
+ GET / 200 in 189ms (next.js: 72ms, application-code: 117ms)
+ GET / 200 in 92ms (next.js: 2ms, application-code: 90ms)
+ GET / 200 in 62ms (next.js: 4ms, application-code: 58ms)
+ GET / 200 in 386ms (next.js: 213ms, application-code: 172ms)
+ GET / 200 in 148ms (next.js: 4ms, application-code: 144ms)
+ GET / 200 in 116ms (next.js: 4ms, application-code: 113ms)
+ GET / 200 in 117ms (next.js: 49ms, application-code: 68ms)
+ GET / 200 in 138ms (next.js: 67ms, application-code: 71ms)
+ GET / 200 in 139ms (next.js: 86ms, application-code: 53ms)
+ GET / 200 in 109ms (next.js: 7ms, application-code: 101ms)
+ GET / 200 in 108ms (next.js: 29ms, application-code: 79ms)
+ GET / 200 in 59ms (next.js: 5ms, application-code: 54ms)
+ GET / 200 in 60ms (next.js: 24ms, application-code: 36ms)
+ GET /all-books 200 in 1000ms (next.js: 960ms, application-code: 40ms)
+ GET /all-books 200 in 180ms (next.js: 34ms, application-code: 146ms)
+ GET /all-books 200 in 116ms (next.js: 3ms, application-code: 113ms)
+ GET /all-books 200 in 88ms (next.js: 3ms, application-code: 85ms)
+ GET /all-books 200 in 88ms (next.js: 47ms, application-code: 41ms)
+ GET /all-books 200 in 89ms (next.js: 23ms, application-code: 66ms)
+ GET / 200 in 81ms (next.js: 57ms, application-code: 23ms)
+ GET /all-books 200 in 20ms (next.js: 1940µs, application-code: 18ms)
+✓ Compiled in 35ms
+ GET /all-books 200 in 82ms (next.js: 32ms, application-code: 50ms)
+ GET /all-books 200 in 25ms (next.js: 2ms, application-code: 23ms)
+ GET /all-books 500 in 32ms (next.js: 7ms, application-code: 25ms)
+ GET /all-books 500 in 18ms (next.js: 5ms, application-code: 13ms)
+✓ Compiled in 160ms
+ GET /all-books 200 in 316ms (next.js: 33ms, application-code: 283ms)
+ GET /all-books 200 in 68ms (next.js: 3ms, application-code: 65ms)
+✓ Compiled in 28ms
+ GET /all-books 200 in 69ms (next.js: 25ms, application-code: 44ms)
+ GET /all-books 200 in 23ms (next.js: 1867µs, application-code: 21ms)
+✓ Compiled in 24ms
+ GET /all-books 200 in 81ms (next.js: 28ms, application-code: 53ms)
+ GET /all-books 200 in 31ms (next.js: 1924µs, application-code: 29ms)
+✓ Compiled in 32ms
+ GET /all-books 200 in 76ms (next.js: 27ms, application-code: 49ms)
+ GET /all-books 200 in 24ms (next.js: 2ms, application-code: 22ms)
+✓ Compiled in 25ms
+ GET /all-books 200 in 97ms (next.js: 29ms, application-code: 68ms)
+ GET /all-books 200 in 28ms (next.js: 3ms, application-code: 25ms)
+✓ Compiled in 27ms
+ GET /all-books 200 in 67ms (next.js: 26ms, application-code: 41ms)
+ GET /all-books 200 in 20ms (next.js: 1729µs, application-code: 18ms)
+ GET /all-books 500 in 12ms (next.js: 5ms, application-code: 8ms)
+ GET /all-books 500 in 12ms (next.js: 4ms, application-code: 7ms)
+ GET /all-books 500 in 16ms (next.js: 5ms, application-code: 11ms)
+✓ Compiled in 34ms
+ GET /all-books 200 in 130ms (next.js: 39ms, application-code: 91ms)
+✓ Compiled in 25ms
+ GET /all-books 200 in 93ms (next.js: 29ms, application-code: 64ms)
+ GET /all-books 200 in 24ms (next.js: 4ms, application-code: 19ms)
+✓ Compiled in 27ms
+ GET /all-books 200 in 70ms (next.js: 25ms, application-code: 45ms)
+ GET /all-books 200 in 25ms (next.js: 2ms, application-code: 23ms)
+✓ Compiled in 21ms
+ GET /all-books 200 in 71ms (next.js: 25ms, application-code: 46ms)
+ GET /all-books 200 in 20ms (next.js: 2ms, application-code: 18ms)
+ GET /all-books 200 in 71ms (next.js: 1934µs, application-code: 69ms)
+ GET / 200 in 142ms (next.js: 103ms, application-code: 39ms)
+ GET /all-books 200 in 18ms (next.js: 3ms, application-code: 15ms)
+ GET / 200 in 16ms (next.js: 1901µs, application-code: 15ms)
+ GET / 200 in 199ms (next.js: 84ms, application-code: 116ms)
+ GET / 200 in 89ms (next.js: 3ms, application-code: 86ms)
+ GET / 200 in 64ms (next.js: 3ms, application-code: 60ms)
+ GET / 200 in 64ms (next.js: 23ms, application-code: 40ms)
+ GET / 200 in 166ms (next.js: 73ms, application-code: 93ms)
+ GET / 200 in 67ms (next.js: 2ms, application-code: 65ms)
+ GET / 200 in 42ms (next.js: 21ms, application-code: 21ms)
+ GET / 200 in 43ms (next.js: 3ms, application-code: 40ms)
+ GET / 200 in 226ms (next.js: 97ms, application-code: 129ms)
+ GET / 200 in 74ms (next.js: 3ms, application-code: 71ms)
+ GET / 200 in 50ms (next.js: 28ms, application-code: 22ms)
+ GET / 200 in 52ms (next.js: 4ms, application-code: 47ms)
+ GET / 200 in 173ms (next.js: 79ms, application-code: 94ms)
+ GET / 200 in 65ms (next.js: 3ms, application-code: 62ms)
+ GET / 200 in 45ms (next.js: 3ms, application-code: 42ms)
+ GET / 200 in 45ms (next.js: 22ms, application-code: 23ms)
+ GET / 200 in 231ms (next.js: 83ms, application-code: 148ms)
+ GET / 200 in 109ms (next.js: 5ms, application-code: 104ms)
+ GET / 200 in 79ms (next.js: 4ms, application-code: 74ms)
+ GET / 200 in 78ms (next.js: 26ms, application-code: 52ms)
+ GET / 500 in 598ms (next.js: 581ms, application-code: 17ms)
+ GET / 500 in 872ms (next.js: 445ms, application-code: 427ms)
+ GET / 500 in 441ms (next.js: 432ms, application-code: 9ms)
+ GET / 500 in 461ms (next.js: 5ms, application-code: 456ms)
+✓ Compiled in 83ms
+✓ Compiled in 350ms
+✓ Compiled in 26ms
+✓ Compiled in 473ms
+✓ Compiled in 35ms
+ GET / 200 in 401ms (next.js: 175ms, application-code: 226ms)
+ GET /all-books 200 in 85ms (next.js: 63ms, application-code: 21ms)
+ GET /all-books 200 in 150ms (next.js: 56ms, application-code: 93ms)
+ GET /all-books 200 in 66ms (next.js: 3ms, application-code: 64ms)
+ GET /all-books 200 in 46ms (next.js: 2ms, application-code: 44ms)
+ GET /all-books 200 in 46ms (next.js: 18ms, application-code: 28ms)
+✓ Compiled in 51ms
+ GET /all-books 200 in 148ms (next.js: 61ms, application-code: 87ms)
+ GET /all-books 200 in 61ms (next.js: 1835µs, application-code: 59ms)
+ GET /all-books 200 in 42ms (next.js: 4ms, application-code: 39ms)
+ GET /all-books 200 in 42ms (next.js: 21ms, application-code: 21ms)
+ GET /all-books 200 in 145ms (next.js: 51ms, application-code: 94ms)
+ GET /all-books 200 in 65ms (next.js: 1941µs, application-code: 63ms)
+ GET /all-books 200 in 45ms (next.js: 3ms, application-code: 42ms)
+ GET /all-books 200 in 45ms (next.js: 23ms, application-code: 22ms)
+ GET / 200 in 134ms (next.js: 101ms, application-code: 33ms)
+ GET /all-books 200 in 19ms (next.js: 2ms, application-code: 17ms)
+✓ Compiled in 34ms
+ GET /all-books 200 in 93ms (next.js: 44ms, application-code: 49ms)
+ GET /all-books 200 in 23ms (next.js: 3ms, application-code: 20ms)
+✓ Compiled in 29ms
+ GET /all-books 200 in 107ms (next.js: 54ms, application-code: 53ms)
+ GET /all-books 200 in 27ms (next.js: 2ms, application-code: 25ms)
+✓ Compiled in 29ms
+ GET /all-books 200 in 87ms (next.js: 43ms, application-code: 44ms)
+ GET /all-books 200 in 24ms (next.js: 2ms, application-code: 22ms)
+✓ Compiled in 25ms
+ GET /all-books 200 in 80ms (next.js: 37ms, application-code: 43ms)
+ GET /all-books 200 in 20ms (next.js: 1780µs, application-code: 18ms)
+✓ Compiled in 29ms
+ GET /all-books 200 in 86ms (next.js: 39ms, application-code: 48ms)
+ GET /all-books 200 in 27ms (next.js: 1801µs, application-code: 25ms)
+✓ Compiled in 60ms
+ GET /all-books 200 in 150ms (next.js: 50ms, application-code: 100ms)
+ GET /all-books 200 in 73ms (next.js: 1930µs, application-code: 71ms)
+ GET /all-books 200 in 52ms (next.js: 3ms, application-code: 50ms)
+ GET /all-books 200 in 52ms (next.js: 21ms, application-code: 31ms)
+ GET /all-books 500 in 17ms (next.js: 5ms, application-code: 12ms)
+ GET /all-books 500 in 13ms (next.js: 5ms, application-code: 8ms)
+✓ Compiled in 29ms
+ GET /all-books 200 in 95ms (next.js: 5ms, application-code: 90ms)
+✓ Compiled in 35ms
+ GET /all-books 200 in 95ms (next.js: 45ms, application-code: 50ms)
+ GET /all-books 200 in 21ms (next.js: 1987µs, application-code: 19ms)
+✓ Compiled in 27ms
+ GET /all-books 200 in 89ms (next.js: 49ms, application-code: 40ms)
+ GET /all-books 200 in 20ms (next.js: 1933µs, application-code: 18ms)
+✓ Compiled in 24ms
+ GET /all-books 200 in 76ms (next.js: 36ms, application-code: 40ms)
+ GET /all-books 200 in 21ms (next.js: 1919µs, application-code: 19ms)
+✓ Compiled in 25ms
+ GET /all-books 200 in 110ms (next.js: 43ms, application-code: 67ms)
+ GET /all-books 200 in 45ms (next.js: 3ms, application-code: 43ms)
+✓ Compiled in 23ms
+ GET /all-books 200 in 79ms (next.js: 37ms, application-code: 41ms)
+ GET /all-books 200 in 21ms (next.js: 2ms, application-code: 19ms)
+✓ Compiled in 35ms
+ GET /all-books 200 in 88ms (next.js: 41ms, application-code: 47ms)
+ GET /all-books 200 in 24ms (next.js: 1745µs, application-code: 22ms)
+✓ Compiled in 27ms
+ GET /all-books 200 in 111ms (next.js: 37ms, application-code: 74ms)
+ GET /all-books 200 in 32ms (next.js: 3ms, application-code: 29ms)
+✓ Compiled in 23ms
+ GET /all-books 200 in 86ms (next.js: 39ms, application-code: 47ms)
+ GET /all-books 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET /all-books 500 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /all-books 500 in 17ms (next.js: 6ms, application-code: 11ms)
+✓ Compiled in 30ms
+ GET /all-books 200 in 110ms (next.js: 40ms, application-code: 70ms)
+ GET /all-books 200 in 39ms (next.js: 1777µs, application-code: 37ms)
+✓ Compiled in 30ms
+ GET /all-books 200 in 95ms (next.js: 45ms, application-code: 50ms)
+ GET /all-books 200 in 24ms (next.js: 3ms, application-code: 21ms)
+ GET /all-books 500 in 14ms (next.js: 6ms, application-code: 8ms)
+ GET /all-books 500 in 11ms (next.js: 4ms, application-code: 7ms)
+✓ Compiled in 24ms
+ GET /all-books 200 in 79ms (next.js: 3ms, application-code: 76ms)
+✓ Compiled in 21ms
+ GET /all-books 200 in 81ms (next.js: 36ms, application-code: 45ms)
+ GET /all-books 200 in 21ms (next.js: 1826µs, application-code: 19ms)
+✓ Compiled in 19ms
+ GET /all-books 200 in 83ms (next.js: 37ms, application-code: 46ms)
+ GET /all-books 200 in 19ms (next.js: 2ms, application-code: 17ms)
+✓ Compiled in 23ms
+ GET /all-books 200 in 88ms (next.js: 36ms, application-code: 52ms)
+ GET /all-books 200 in 26ms (next.js: 4ms, application-code: 22ms)
+✓ Compiled in 27ms
+ GET /all-books 200 in 95ms (next.js: 47ms, application-code: 48ms)
+ GET /all-books 200 in 21ms (next.js: 2ms, application-code: 19ms)
+✓ Compiled in 22ms
+ GET /all-books 200 in 104ms (next.js: 39ms, application-code: 65ms)
+ GET /all-books 200 in 30ms (next.js: 3ms, application-code: 28ms)
+ GET / 200 in 151ms (next.js: 118ms, application-code: 33ms)
+ GET / 200 in 152ms (next.js: 95ms, application-code: 57ms)
+ GET / 200 in 27ms (next.js: 1921µs, application-code: 25ms)
+ GET / 200 in 152ms (next.js: 101ms, application-code: 52ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 26ms)
+✓ Compiled in 49ms
+ GET / 200 in 185ms (next.js: 95ms, application-code: 90ms)
+ GET / 200 in 61ms (next.js: 2ms, application-code: 59ms)
+ GET / 200 in 41ms (next.js: 1994µs, application-code: 39ms)
+ GET / 200 in 41ms (next.js: 19ms, application-code: 22ms)
+✓ Compiled in 35ms
+ GET / 200 in 180ms (next.js: 97ms, application-code: 82ms)
+ GET / 200 in 59ms (next.js: 1777µs, application-code: 58ms)
+ GET / 200 in 41ms (next.js: 1992µs, application-code: 39ms)
+ GET / 200 in 41ms (next.js: 20ms, application-code: 22ms)
+ GET / 200 in 130ms (next.js: 86ms, application-code: 44ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 163ms (next.js: 91ms, application-code: 72ms)
+ GET / 200 in 30ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 153ms (next.js: 100ms, application-code: 52ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET / 200 in 136ms (next.js: 91ms, application-code: 44ms)
+ GET / 200 in 22ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 138ms (next.js: 91ms, application-code: 47ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET / 500 in 32ms (next.js: 25ms, application-code: 7ms)
+ GET / 500 in 19ms (next.js: 8ms, application-code: 11ms)
+ GET / 200 in 44ms (next.js: 2ms, application-code: 42ms)
+ GET / 500 in 38ms (next.js: 29ms, application-code: 9ms)
+ GET / 500 in 16ms (next.js: 6ms, application-code: 10ms)
+ GET / 500 in 17ms (next.js: 10ms, application-code: 7ms)
+ GET / 200 in 80ms (next.js: 3ms, application-code: 77ms)
+ GET / 200 in 170ms (next.js: 111ms, application-code: 60ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET / 200 in 174ms (next.js: 115ms, application-code: 58ms)
+ GET / 200 in 36ms (next.js: 3ms, application-code: 33ms)
+ GET / 200 in 165ms (next.js: 108ms, application-code: 58ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 181ms (next.js: 119ms, application-code: 62ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 26ms)
+ GET / 200 in 195ms (next.js: 106ms, application-code: 89ms)
+ GET / 200 in 48ms (next.js: 2ms, application-code: 46ms)
+ GET / 200 in 149ms (next.js: 99ms, application-code: 49ms)
+ GET / 200 in 23ms (next.js: 2ms, application-code: 20ms)
+ GET / 200 in 146ms (next.js: 89ms, application-code: 57ms)
+ GET / 200 in 32ms (next.js: 5ms, application-code: 27ms)
+ GET / 200 in 168ms (next.js: 105ms, application-code: 62ms)
+ GET / 200 in 28ms (next.js: 1939µs, application-code: 26ms)
+ GET / 200 in 177ms (next.js: 105ms, application-code: 72ms)
+ GET / 200 in 44ms (next.js: 2ms, application-code: 41ms)
+ GET / 200 in 151ms (next.js: 101ms, application-code: 51ms)
+ GET / 200 in 23ms (next.js: 1780µs, application-code: 22ms)
+✓ Compiled in 48ms
+ GET / 200 in 161ms (next.js: 107ms, application-code: 54ms)
+ GET / 200 in 31ms (next.js: 2ms, application-code: 29ms)
+ GET / 200 in 175ms (next.js: 105ms, application-code: 69ms)
+ GET / 200 in 31ms (next.js: 2ms, application-code: 29ms)
+ GET / 200 in 177ms (next.js: 103ms, application-code: 74ms)
+ GET / 200 in 40ms (next.js: 13ms, application-code: 27ms)
+ GET / 200 in 139ms (next.js: 94ms, application-code: 45ms)
+ GET / 200 in 22ms (next.js: 3ms, application-code: 19ms)
+ GET / 200 in 173ms (next.js: 99ms, application-code: 74ms)
+ GET / 200 in 39ms (next.js: 5ms, application-code: 34ms)
+ GET / 200 in 155ms (next.js: 110ms, application-code: 45ms)
+ GET / 200 in 21ms (next.js: 1991µs, application-code: 19ms)
+ GET / 200 in 164ms (next.js: 110ms, application-code: 54ms)
+ GET / 200 in 27ms (next.js: 2ms, application-code: 25ms)
+✓ Compiled in 113ms
+ GET / 200 in 419ms (next.js: 318ms, application-code: 102ms)
+ GET / 200 in 35ms (next.js: 4ms, application-code: 31ms)
+ GET / 200 in 183ms (next.js: 120ms, application-code: 63ms)
+ GET / 200 in 40ms (next.js: 3ms, application-code: 37ms)
+ GET / 200 in 157ms (next.js: 105ms, application-code: 51ms)
+ GET / 200 in 20ms (next.js: 1957µs, application-code: 18ms)
+ GET / 200 in 170ms (next.js: 124ms, application-code: 46ms)
+ GET / 200 in 25ms (next.js: 3ms, application-code: 23ms)
+ GET / 200 in 187ms (next.js: 119ms, application-code: 68ms)
+ GET / 200 in 29ms (next.js: 3ms, application-code: 25ms)
+ GET / 500 in 51ms (next.js: 35ms, application-code: 17ms)
+ GET / 500 in 15ms (next.js: 5ms, application-code: 10ms)
+ GET / 500 in 461ms (next.js: 115ms, application-code: 346ms)
+ GET / 200 in 211ms (next.js: 120ms, application-code: 90ms)
+ GET /[object%20Object] 404 in 420ms (next.js: 325ms, application-code: 95ms)
+ GET / 500 in 35ms (next.js: 27ms, application-code: 8ms)
+ GET / 500 in 24ms (next.js: 15ms, application-code: 8ms)
+ GET / 200 in 220ms (next.js: 102ms, application-code: 118ms)
+ GET / 200 in 155ms (next.js: 102ms, application-code: 53ms)
+ GET / 200 in 24ms (next.js: 2ms, application-code: 21ms)
+ GET / 200 in 151ms (next.js: 105ms, application-code: 45ms)
+ GET / 200 in 24ms (next.js: 1909µs, application-code: 22ms)
+ GET / 200 in 152ms (next.js: 104ms, application-code: 48ms)
+ GET / 200 in 22ms (next.js: 1855µs, application-code: 20ms)
+ GET / 200 in 177ms (next.js: 125ms, application-code: 52ms)
+ GET / 200 in 24ms (next.js: 3ms, application-code: 21ms)
+ GET / 200 in 143ms (next.js: 98ms, application-code: 45ms)
+ GET / 200 in 24ms (next.js: 1847µs, application-code: 22ms)
+ GET / 200 in 177ms (next.js: 99ms, application-code: 78ms)
+ GET / 200 in 31ms (next.js: 3ms, application-code: 28ms)
+ GET / 200 in 160ms (next.js: 106ms, application-code: 54ms)
+ GET / 200 in 21ms (next.js: 2ms, application-code: 19ms)
+ GET / 200 in 226ms (next.js: 165ms, application-code: 61ms)
+ GET / 200 in 21ms (next.js: 1813µs, application-code: 19ms)
+ GET / 500 in 48ms (next.js: 38ms, application-code: 9ms)
+ GET / 500 in 21ms (next.js: 8ms, application-code: 13ms)
+ GET / 500 in 34ms (next.js: 25ms, application-code: 9ms)
+ GET / 500 in 50ms (next.js: 38ms, application-code: 12ms)
+ GET / 200 in 59ms (next.js: 5ms, application-code: 54ms)
+ GET / 200 in 191ms (next.js: 134ms, application-code: 57ms)
+ GET / 200 in 34ms (next.js: 4ms, application-code: 30ms)
+ GET / 500 in 33ms (next.js: 24ms, application-code: 10ms)
+ GET / 500 in 15ms (next.js: 8ms, application-code: 7ms)
+ GET / 500 in 60ms (next.js: 2ms, application-code: 57ms)
+ GET / 200 in 223ms (next.js: 105ms, application-code: 117ms)
+ GET / 500 in 28ms (next.js: 19ms, application-code: 10ms)
+ GET / 500 in 18ms (next.js: 12ms, application-code: 6ms)
+ GET / 200 in 43ms (next.js: 2ms, application-code: 41ms)
+ GET / 200 in 152ms (next.js: 105ms, application-code: 47ms)
+ GET / 200 in 25ms (next.js: 2ms, application-code: 22ms)
+ GET / 500 in 39ms (next.js: 28ms, application-code: 11ms)
+✓ Compiled in 39ms
+ GET / 500 in 100ms (next.js: 2ms, application-code: 98ms)
+ GET / 500 in 27ms (next.js: 20ms, application-code: 7ms)
+✓ Compiled in 37ms
+ GET / 500 in 338ms (next.js: 217ms, application-code: 121ms)
+ GET / 200 in 188ms (next.js: 109ms, application-code: 79ms)
+ GET / 500 in 43ms (next.js: 19ms, application-code: 25ms)
+ GET / 500 in 18ms (next.js: 7ms, application-code: 12ms)
+ GET / 500 in 27ms (next.js: 19ms, application-code: 7ms)
+ GET / 500 in 47ms (next.js: 38ms, application-code: 9ms)
+ GET / 500 in 311ms (next.js: 164ms, application-code: 147ms)
+ GET / 500 in 67ms (next.js: 13ms, application-code: 54ms)
+✓ Compiled in 2ms
+ GET / 500 in 34ms (next.js: 25ms, application-code: 8ms)
+ GET / 200 in 190ms (next.js: 102ms, application-code: 88ms)
+ GET / 200 in 50ms (next.js: 1870µs, application-code: 48ms)
+ GET / 200 in 132ms (next.js: 92ms, application-code: 40ms)
+ GET / 200 in 22ms (next.js: 1865µs, application-code: 20ms)
+ GET / 500 in 257ms (next.js: 131ms, application-code: 126ms)
+ GET / 500 in 68ms (next.js: 58ms, application-code: 9ms)
+ GET / 500 in 241ms (next.js: 100ms, application-code: 141ms)
+ GET / 500 in 166ms (next.js: 3ms, application-code: 162ms)
+ GET / 500 in 272ms (next.js: 113ms, application-code: 159ms)
+ GET / 500 in 43ms (next.js: 35ms, application-code: 9ms)
+ GET / 500 in 224ms (next.js: 106ms, application-code: 118ms)
+ GET / 500 in 56ms (next.js: 2ms, application-code: 54ms)
+ GET / 500 in 62ms (next.js: 2ms, application-code: 60ms)
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.104:3000
+- Environments: .env
+✓ Ready in 923ms
+
+/*! 🌼 daisyUI 5.5.19 */
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.104:3000
+- Environments: .env
+✓ Ready in 417ms
+[?25h

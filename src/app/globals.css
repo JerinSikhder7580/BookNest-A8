@@ -1,10 +1,21 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@import "@heroui/styles"; 
 
-section{
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+section {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 
+.primary-bg {
+  background: #473684;
+}
+
+.primary-text {
+  color: #473684;
+}

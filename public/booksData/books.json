@@ -6,7 +6,7 @@
         "description": "A mysterious story about a hidden village inside an ancient forest.",
         "category": "Story",
         "available_quantity": 12,
-        "image_url": "https://example.com/images/silent-forest.jpg"
+        "image_url": "https://i.ibb.co/PZnR6qpC/silentforest.jpg"
     },
     {
         "id": 2,
@@ -15,25 +15,25 @@
         "description": "A complete guide to modern JavaScript for beginners and professionals.",
         "category": "Tech",
         "available_quantity": 8,
-        "image_url": "https://example.com/images/javascript-mastery.jpg"
+        "image_url": "https://i.ibb.co/M5SYwtgD/Java-Script.jpg"
     },
     {
         "id": 3,
-        "title": "The Wonders of Space",
-        "author": "Sophia Turner",
-        "description": "Explore galaxies, planets, and the mysteries of the universe.",
-        "category": "Science",
-        "available_quantity": 15,
-        "image_url": "https://example.com/images/wonders-of-space.jpg"
-    },
-    {
-        "id": 4,
         "title": "Lost in Time",
         "author": "Michael Reed",
         "description": "A thrilling story of time travel and forgotten memories.",
         "category": "Story",
         "available_quantity": 10,
-        "image_url": "https://example.com/images/lost-in-time.jpg"
+        "image_url": "https://i.ibb.co/G34g3czM/lost-in-time.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Whispers of the Night",
+        "author": "Henry Adams",
+        "description": "A suspenseful story filled with secrets and unexpected twists.",
+        "category": "Story",
+        "available_quantity": 13,
+        "image_url": "https://i.ibb.co/NnVH0QZ5/the-night.jpg"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "description": "Learn how to build dynamic web applications using React.",
         "category": "Tech",
         "available_quantity": 6,
-        "image_url": "https://example.com/images/react-in-action.jpg"
+        "image_url": "https://i.ibb.co/TMWjS4Wm/react-in-action.jpg"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "description": "A simple and engaging guide to understanding the human body.",
         "category": "Science",
         "available_quantity": 9,
-        "image_url": "https://example.com/images/human-body.jpg"
+        "image_url": "https://i.ibb.co/Mk1wT2ty/human-body.jpg"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "description": "A touching story about love, loss, and second chances.",
         "category": "Story",
         "available_quantity": 14,
-        "image_url": "https://example.com/images/last-letter.jpg"
+        "image_url": "https://i.ibb.co/qLMdpFvV/lastletter.jpg"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "description": "An easy-to-follow introduction to Python programming.",
         "category": "Tech",
         "available_quantity": 11,
-        "image_url": "https://example.com/images/python-for-everyone.jpg"
+        "image_url": "https://i.ibb.co/rGPKB9bd/python.jpg"
     },
     {
         "id": 9,
@@ -78,16 +78,16 @@
         "description": "Understand the science behind global warming and its effects.",
         "category": "Science",
         "available_quantity": 7,
-        "image_url": "https://example.com/images/climate-change.jpg"
+        "image_url": "https://i.ibb.co/zhsV0yBk/climate.jpg"
     },
     {
         "id": 10,
-        "title": "Whispers of the Night",
-        "author": "Henry Adams",
-        "description": "A suspenseful story filled with secrets and unexpected twists.",
-        "category": "Story",
-        "available_quantity": 13,
-        "image_url": "https://example.com/images/whispers-night.jpg"
+        "title": "The Wonders of Space",
+        "author": "Sophia Turner",
+        "description": "Explore galaxies, planets, and the mysteries of the universe.",
+        "category": "Science",
+        "available_quantity": 15,
+        "image_url": "https://i.ibb.co/TM0ktHtt/wonder.webp"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "description": "Discover how artificial intelligence is shaping tomorrow.",
         "category": "Tech",
         "available_quantity": 5,
-        "image_url": "https://example.com/images/ai-future.jpg"
+        "image_url": "https://i.ibb.co/S4nGK8kN/Ai-and-future.jpg"
     },
     {
         "id": 12,
@@ -105,6 +105,6 @@
         "description": "Dive deep into the secrets of marine life and ocean ecosystems.",
         "category": "Science",
         "available_quantity": 16,
-        "image_url": "https://example.com/images/ocean-depths.jpg"
+        "image_url": "https://i.ibb.co/DHKszk59/ocean.webp"
     }
 ]
