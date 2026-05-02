@@ -27,7 +27,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl"><IoBookSharp /> Book Nest</a>
+                <Link className="btn btn-ghost text-xl" href="/"> <IoBookSharp /> Book Nest</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

@@ -22,7 +22,7 @@ const Banner = () => {
                 </div>
 
             </div>
-            {/* <Marquee className="tracking-widest py-5" autoFill="true">
+            <Marquee className="tracking-widest py-5" autoFill="true">
                 {
                     booksData?.map(book =>
                         <span className="mr-5" key={book.id}>{book.title}</span>
@@ -30,7 +30,7 @@ const Banner = () => {
                     )
                 }
 
-            </Marquee> */}
+            </Marquee>
             <div className="grid grid-cols-4 gap-4  p-6" >
                 {
                     booksData.slice(0, 4).map(book =>
