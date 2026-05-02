@@ -3,6 +3,8 @@ import { authClient } from "@/lib/auth-client";
 import { Button } from "@heroui/react";
 import Link from "next/link";
 import { IoBookSharp } from "react-icons/io5";
+import { Avatar } from "@heroui/react";
+
 
 
 const Navbar = () => {
@@ -48,22 +50,41 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <div className="navbar-end">
-                <ul className="flex items-center gap-4">
+            <div className="navbar-end flex gap-4">
+                {!user && <ul className="flex items-center gap-4">
                     <li>
                         <Link href={"/signup"}>SignUp</Link>
                     </li>
                     <li>
                         <Link href={"/signin"}>SignIn</Link>
                     </li>
-                </ul>
-            </div>
-            <div className="text-sm text-gray-500">
-                {user?.name}
+                </ul>}
+
+
+                {user && (
+                    <div className="flex gap-4">
+                        <Avatar>
+                            <Avatar.Image alt="John Doe" src={user?.image}
+                                referrerPolicy="no-referrer" />
+                            <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+
+
+                        </Avatar>
+                        <Button onClick={handleLogOut} variant="danger">LogOut</Button>
+
+                    </div>
+
+                )
+
+
+                }
+
+
+
             </div>
 
 
-            <Button onClick={handleLogOut} variant="danger">LogOut</Button>
+
         </div>
     );
 };
