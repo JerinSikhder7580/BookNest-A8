@@ -40,6 +40,7 @@ const BookDetails = () => {
                             <p className='text-xl font-bold'>{book.author}</p>
                             <p className=' font-bold'>{book.description}</p>
                             <p className='font-bold'>{book.available_quantity} Copies Left</p>
+
                             <p className='font-bold '>{book.category}</p>
                             <button className='btn primary-bg text-white'>Borrow This Book <FaBookOpen />
                             </button>

@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from 'next/link';
 
 
-const AllBooks = () => {
+const AllBooks = ({ params }) => {
 
     const [books, setBooks] = useState(booksData)
 
@@ -37,20 +37,30 @@ const AllBooks = () => {
                 </div>
 
 
-                <div className="grid grid-cols-4 gap-5">
+                <div className="grid grid-cols-4 gap-5 my-5">
                     {
                         booksData.map(book =>
-                            <div key={book.id}>
+                            <div className='border-2 border-[#473684] rounded-2xl shadow-2xl p-5' key={book.id}>
 
-                                <div className="h-83.75 w-83.75 overflow-hidden rounded-t-2xl" >
-                                    <Image className="" src={book.image_url} alt="BookImage"
-                                        height={335}
-                                        width={335} />
+                               
+                                <div className='relative aspect-square w-full'>
 
+                                    <Image className="  object-cover" src={book.image_url}
+                                        alt="Book"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+
+                                    // width={200}
+                                    // height={300}
+                                    />
                                 </div>
-                                <h1>{book.title}</h1>
+                                <div className='flex justify-between space-y-2 primary-text font-semibold'>
+                                    <h1>{book.title}</h1>
+                                    <h1>{book.category}</h1>
+                                </div>
+
                                 <Link href={`/bookDetails/${book.id}`}>
-                                    <button className='btn primary-bg text-white'> View Details <ArrowRight></ArrowRight></button>
+                                    <button className='btn primary-bg text-white w-full'> View Details <ArrowRight></ArrowRight></button>
                                 </Link>
                             </div>
                         )
