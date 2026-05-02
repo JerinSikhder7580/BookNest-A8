@@ -19,7 +19,7 @@ const SignInPage = () => {
         })
     }
     return (
-        <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
+        <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border border-[#00d3bb] rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
 
 
 
@@ -66,7 +66,7 @@ const SignInPage = () => {
                     <Check />
                     Submit
                 </Button>
-                <Button type="reset" variant="secondary">
+                <Button  type="reset" variant="secondary">
                     Reset
                 </Button>
             </div>

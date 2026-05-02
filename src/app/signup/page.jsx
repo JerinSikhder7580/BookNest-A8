@@ -11,26 +11,27 @@ const SignUpPage = () => {
     const onSubmit = async (e) => {
         e.preventDefault()
         const name = e.target.name.value
+        const image=e.target.image.value
         const email = e.target.email.value
         const password = e.target.password.value
 
 
         const { data, error } = await authClient.signUp.email({
             name,
+            image,
             password,
             email
 
         }, {
             onSuccess: () => {
                 router.push("/")
-
             }
         })
 
     }
 
     return (
-        <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
+        <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border border-[#00d3bb] rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
             <TextField
                 isRequired
                 name="name"
@@ -38,6 +39,16 @@ const SignUpPage = () => {
             >
                 <Label>Name</Label>
                 <Input placeholder="Enter your name here" />
+                <FieldError />
+            </TextField>
+
+            <TextField
+                isRequired
+                name="image"
+                type="text"
+            >
+                <Label>Image URL</Label>
+                <Input placeholder="Image URL" />
                 <FieldError />
             </TextField>
 
