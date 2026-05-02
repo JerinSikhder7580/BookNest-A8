@@ -10,7 +10,7 @@ import { Avatar } from "@heroui/react";
 const Navbar = () => {
 
     const {
-        data: session, } = authClient.useSession()
+        data: session } = authClient.useSession()
 
     const user = session?.user
 
@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <li><Link href="/">Home</Link></li>
         <li><Link href="all-books">AllBooks</Link></li>
-        <li><Link href="my-profile">MyProfile</Link></li>
+        <li><Link href="profile">MyProfile</Link></li>
 
     </>
 
@@ -62,9 +62,9 @@ const Navbar = () => {
 
 
                 {user && (
-                    <div className="flex gap-4">
+                    <div className="flex gap-4 ">
                         <Avatar>
-                            <Avatar.Image alt="John Doe" src={user?.image}
+                            <Avatar.Image alt="User Image" src={user?.image}
                                 referrerPolicy="no-referrer" />
                             <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
 
