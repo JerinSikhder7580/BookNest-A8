@@ -5,7 +5,6 @@ import { FaBookOpen } from "react-icons/fa";
 
 import React from 'react';
 import Image from 'next/image';
-// import { router } from 'better-auth/api';  remove this
 import { toast, ToastContainer } from 'react-toastify';
 import { authClient } from '@/lib/auth-client';
 

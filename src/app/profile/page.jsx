@@ -11,9 +11,9 @@ const MyProfile = () => {
         data: session, } = authClient.useSession()
     const user = session?.user
 
-    // if(!user){
-    //     redirect("/signin")
-    // }
+    if(!user){
+        redirect("/login")
+    }
     return (
         <div >
             <Card className=" flex flex-col items-center bg-transparent mt-9 border-l-5 border-r-5 border-[#c6a8ff] max-w-96 mx-auto shadow-2xl">

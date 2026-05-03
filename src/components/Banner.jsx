@@ -3,6 +3,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import booksData from "../../public/booksData/books.json";
 import Link from "next/link";
 import Image from "next/image";
+import 'animate.css';
+
 
 const Banner = () => {
 
@@ -15,7 +17,7 @@ const Banner = () => {
                         <h1 className="text-8xl font-bold text-[#0f3156]">Find Your <br /> <span className="text-[#473684]">Next Read</span> </h1>
                         <p className="text-gray-600">Explore a wide collection of books across  genres and discover your next favorite</p>
                         <Link href="/all-books">
-                            <button className="btn mt-6 bg-[#473684] text-white">Browse Now <FaArrowRightLong /></button>
+                            <button className="btn mt-6 bg-[#473684] text-white ">Browse Now <span className="animate__animated animate__shakeX  animate__infinite animate__slow"><FaArrowRightLong /></span> </button>
                         </Link>
                     </div>
 
