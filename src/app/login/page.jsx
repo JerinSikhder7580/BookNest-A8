@@ -1,65 +1,39 @@
 "use client"
 import { authClient } from "@/lib/auth-client";
 import { Button, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
-import { Check } from "lucide-react";
-import { useRouter } from "next/navigation";
-import { GrGoogle } from "react-icons/gr";
 
-const SignUpPage = () => {
-    const router = useRouter()
+const LoginPage = () => {
 
 
     const onSubmit = async (e) => {
         e.preventDefault()
-        const name = e.target.name.value
-        const image = e.target.image.value
         const email = e.target.email.value
         const password = e.target.password.value
 
 
-        const { data, error } = await authClient.signUp.email({
-            name,
-            image,
+        const { data, error } = await authClient.signIn.email({
+            email,
             password,
-            email
+            callbackURL: '/'
 
-        }, {
-            onSuccess: () => {
-                router.push("/")
-            }
+
+
+
         })
 
     }
-    const handleGoogleSignIn = async () => {
-        await authClient.signUp.social({
-            provider: "google"
-        })
+    // const handleGoogleSignUp = async () => {
+    //     await authClient.signIn.social({
+    //         provider: "google"
+    //     })
 
-    }
+    // }
 
 
 
     return (
         <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border border-[#00d3bb] rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
-            <TextField
-                isRequired
-                name="name"
-                type="text"
-            >
-                <Label>Name</Label>
-                <Input placeholder="Enter your name here" />
-                <FieldError />
-            </TextField>
 
-            <TextField
-                isRequired
-                name="image"
-                type="text"
-            >
-                <Label>Image URL</Label>
-                <Input placeholder="Image URL" />
-                <FieldError />
-            </TextField>
 
 
             <TextField
@@ -100,7 +74,8 @@ const SignUpPage = () => {
                 <Description>Must be at least 8 characters with 1 uppercase and 1 number</Description>
                 <FieldError />
             </TextField>
-            <div className="flex gap-2">
+            <Button type="submit" className=" primary-bg w-full text-white">LogIn</Button>
+            {/* <div className="flex gap-2">
                 <Button type="submit">
                     <Check />
                     Submit
@@ -108,11 +83,11 @@ const SignUpPage = () => {
                 <Button type="reset" variant="secondary">
                     Reset
                 </Button>
-            </div>
-            <Button onClick={handleGoogleSignIn} className="w-full"> <GrGoogle></GrGoogle> Sign in with Google</Button>
+            </div> */}
+            {/* <Button onClick={handleGoogleSignUp} className="w-full"> <GrGoogle></GrGoogle> SignUp with Google</Button> */}
 
         </Form>
     );
 };
 
-export default SignUpPage;
+export default LoginPage;

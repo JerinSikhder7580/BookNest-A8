@@ -1,70 +1,115 @@
-"use client"
-import React from 'react';
+"use client";
+
+import React, { useState } from "react";
 import { ArrowRight, Search } from "lucide-react";
 import booksData from "../../../public/booksData/books.json";
-import { useState } from "react";
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
+import CategorySidebar from "@/components/CategorySidebar";
 
+const AllBooks = () => {
+    // Category state
+    const [selectedCategory, setSelectedCategory] = useState("All");
 
-const AllBooks = ({ params }) => {
+    // Search state
+    const [searchText, setSearchText] = useState("");
 
-    const [books, setBooks] = useState(booksData)
+    // Filter logic (category + search)
+    const filteredBooks = booksData.filter((book) => {
+        const matchCategory =
+            selectedCategory === "All" ||
+            book.category === selectedCategory;
 
+        const matchSearch = book.title
+            .toLowerCase()
+            .includes(searchText.toLowerCase());
+
+        return matchCategory && matchSearch;
+    });
 
     return (
         <div className="mt-10">
             <section>
+
+                {/* Search */}
                 <div>
-
-
-                    <form className="flex gap-2 items-center w-full">
+                    <form
+                        onSubmit={(e) => e.preventDefault()}
+                        className="flex gap-2 items-center w-full"
+                    >
                         <label className="input border-none flex-1 shadow-sm">
                             <Search size={18} />
-                            <input className="" type="text" />
+                            <input
+                                type="text"
+                                placeholder="Search books..."
+                                value={searchText}
+                                onChange={(e) => setSearchText(e.target.value)}
+                            />
                         </label>
-                        <button className="btn btn-primary"><Search size={18} /> Search</button>
+                        <button className="btn btn-primary">
+                            <Search size={18} /> Search
+                        </button>
                     </form>
                 </div>
-                <div className=" grid grid-cols-2 bg-white p-3 rounded-xl shadow-sm mt-5">
+
+                <div className="grid grid-cols-2 bg-white p-3 rounded-xl shadow-sm mt-5">
                     <div>
-                        <h1 className="primary-text text-sm font-bold tracking-wider">DIGITAL SHELF</h1>
-                        <h2 className="text-3xl font-bold mt-2">{`${books.length} books ready to explore`}</h2>
+                        <h1 className="primary-text text-sm font-bold tracking-wider">
+                            DIGITAL SHELF
+                        </h1>
+                        <h2 className="text-3xl font-bold mt-2">
+                            {`${filteredBooks.length} books ready to explore`}
+                        </h2>
                     </div>
                     <p className="text-sm text-gray-500">
-                        Search for a title instantly or filter the collection from the left sidebar by Story, Tech and Science.
+                        Filter books using the left sidebar (Story, Tech, Science).
                     </p>
                 </div>
 
+                {/* Layout */}
+                <div className="flex gap-5 mt-5">
 
-                <div className="grid grid-cols-4 gap-5 my-5">
-                    {
-                        booksData.map(book =>
-                            <div className='border-2 border-[#473684] rounded-2xl shadow-2xl p-5' key={book.id}>
+                    {/* Sidebar Component */}
+                    <CategorySidebar
+                        selectedCategory={selectedCategory}
+                        setSelectedCategory={setSelectedCategory}
+                    />
 
-                               
-                                <div className='relative aspect-square w-full'>
+                    {/* Books */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 flex-1">
+                        {filteredBooks.length > 0 ? (
+                            filteredBooks.map((book) => (
+                                <div
+                                    className="border-2 border-[#473684] rounded-2xl shadow-2xl p-5"
+                                    key={book.id}
+                                >
+                                    <div className="relative aspect-square w-full">
+                                        <Image
+                                            className="object-cover"
+                                            src={book.image_url}
+                                            alt="Book"
+                                            fill
+                                        />
+                                    </div>
 
-                                    <Image className="  object-cover" src={book.image_url}
-                                        alt="Book"
-                                        fill
-                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                    <div className="flex justify-between mt-3 primary-text font-semibold">
+                                        <h1>{book.title}</h1>
+                                        <h1>{book.category}</h1>
+                                    </div>
 
-                                    // width={200}
-                                    // height={300}
-                                    />
+                                    <Link href={`/bookDetails/${book.id}`}>
+                                        <button className="btn primary-bg text-white w-full mt-3">
+                                            View Details <ArrowRight />
+                                        </button>
+                                    </Link>
                                 </div>
-                                <div className='flex justify-between space-y-2 primary-text font-semibold'>
-                                    <h1>{book.title}</h1>
-                                    <h1>{book.category}</h1>
-                                </div>
-
-                                <Link href={`/bookDetails/${book.id}`}>
-                                    <button className='btn primary-bg text-white w-full'> View Details <ArrowRight></ArrowRight></button>
-                                </Link>
-                            </div>
-                        )
-                    }
+                            ))
+                        ) : (
+                            <p className="text-center col-span-full text-gray-500">
+                                No books found
+                            </p>
+                        )}
+                    </div>
                 </div>
 
             </section>

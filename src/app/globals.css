@@ -1,5 +1,12 @@
 @import "tailwindcss";
-@import "@heroui/styles"; 
+
+@theme {
+  --breakpoint-xs: 460px;
+  --breakpoint-3xl: 1750px;
+
+}
+
+@import "@heroui/styles";
 
 @plugin "daisyui" {
   themes: light --default;

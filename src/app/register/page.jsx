@@ -1,23 +1,41 @@
 "use client"
 import { authClient } from "@/lib/auth-client";
 import { Button, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
-import { Check, Icon } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { router } from "better-auth/api";
 import { GrGoogle } from "react-icons/gr";
+import { useRouter } from "next/navigation";
+import { toast, ToastContainer } from "react-toastify";
 
-const SignInPage = () => {
+
+const RegisterPage = () => {
+    const router = useRouter()
+
 
 
     const onSubmit = async (e) => {
         e.preventDefault()
+        const name = e.target.name.value
+        const image = e.target.image.value
         const email = e.target.email.value
         const password = e.target.password.value
+        console.log({ name, password, email, image })
 
-        const { data, error } = await authClient.signIn.email({
+        const { data, error } = await authClient.signUp.email({
+            name,
+            image,
             email,
             password,
-            callbackURL: '/'
-        })
+        },
+
+        )
+        console.log({ data, error })
+        if (!error) {
+            toast.success("Sign Up Successfully");
+            router.push("/")
+        } else {
+            alert("log in failed")
+        }
+
     }
 
     const handleGoogleSignIn = async () => {
@@ -25,12 +43,27 @@ const SignInPage = () => {
             provider: "google"
         })
 
+
+
     }
     return (
+
         <div>
+            {/* <ToastContainer /> */}
+
 
             <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border border-[#00d3bb] rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
 
+                <TextField
+                    isRequired
+                    name="name"
+                    type="text"
+
+                >
+                    <Label>Name</Label>
+                    <Input placeholder="Enter your name" />
+                    <FieldError />
+                </TextField>
                 <TextField
                     isRequired
                     name="email"
@@ -69,14 +102,17 @@ const SignInPage = () => {
                     <Description>Must be at least 8 characters with 1 uppercase and 1 number</Description>
                     <FieldError />
                 </TextField>
+                <TextField
+                    isRequired
+                    name="image"
+                    type="url"
+                >
+                    <Label>Image URL</Label>
+                    <Input placeholder="Image URL" />
+                    <FieldError />
+                </TextField>
                 <div className="flex justify-center gap-2">
-                    <Button type="submit">
-                        <Check />
-                        Submit
-                    </Button>
-                    <Button type="reset" variant="secondary">
-                        Reset
-                    </Button>
+                    <button className="btn w-full">Register</button>
                 </div>
                 <p className="text-center">or</p>
                 <Button onClick={handleGoogleSignIn} className="w-full"> <GrGoogle></GrGoogle> Sign in with Google</Button>
@@ -92,4 +128,4 @@ const SignInPage = () => {
     );
 };
 
-export default SignInPage;
+export default RegisterPage;

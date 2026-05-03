@@ -4,6 +4,7 @@ import { Button } from "@heroui/react";
 import Link from "next/link";
 import { IoBookSharp } from "react-icons/io5";
 import { Avatar } from "@heroui/react";
+import NavLink from "./NavLink";
 
 
 
@@ -21,9 +22,9 @@ const Navbar = () => {
 
     const links = <>
 
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="all-books">AllBooks</Link></li>
-        <li><Link href="profile">MyProfile</Link></li>
+        <li><NavLink href="/">Home</NavLink></li>
+        <li><NavLink href="/all-books">AllBooks</NavLink></li>
+        <li><NavLink href="/profile">MyProfile</NavLink></li>
 
     </>
 
@@ -33,8 +34,8 @@ const Navbar = () => {
 
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden px-0 sm:px-4 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7  sm:h-5 sm:w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                     </div>
                     <ul
                         tabIndex="-1"
@@ -42,7 +43,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <Link className="btn btn-ghost text-xl" href="/"> <IoBookSharp /> Book Nest</Link>
+                <Link className="btn btn-ghost primary-text text-xl" href="/"> <IoBookSharp /> Book Nest</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -53,23 +54,24 @@ const Navbar = () => {
             <div className="navbar-end flex gap-4">
                 {!user && <ul className="flex items-center gap-4">
                     <li>
-                        <Link href={"/signup"}>SignUp</Link>
+                        <Link className="btn primary-bg text-white outline-none" href={"/register"}>Register</Link>
                     </li>
                     <li>
-                        <Link href={"/signin"}>SignIn</Link>
+                        <Link className="btn bg-[#0f3156] text-white" href={"/login"}>LogIn</Link>
                     </li>
                 </ul>}
 
 
                 {user && (
-                    <div className="flex gap-4 ">
-                        <Avatar>
+                    <div className="flex flex-col xs:flex-row gap-0 xs:gap-4 items-center">
+                        {/* <Avatar>
                             <Avatar.Image alt="User Image" src={user?.image}
                                 referrerPolicy="no-referrer" />
                             <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
 
 
-                        </Avatar>
+                        </Avatar> */}
+                        <p className="primary-text">{user?.name.toUpperCase()}</p>
                         <Button onClick={handleLogOut} variant="danger">LogOut</Button>
 
                     </div>

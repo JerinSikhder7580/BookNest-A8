@@ -25,30 +25,36 @@ const Banner = () => {
             <Marquee className="tracking-widest py-5" autoFill="true">
                 {
                     booksData?.map(book =>
-                        <span className="mr-5" key={book.id}>{book.title}</span>
-                       
+                        <span className="mr-5" key={book.id}>New Arrivals:{book.title}</span>
+
                     )
                 }
 
             </Marquee>
-            <div className="grid grid-cols-4 gap-4  p-6" >
+            <div className="grid grid-cols-2 3xl:grid-cols-4 gap-4  p-6" >
                 {
                     booksData.slice(0, 4).map(book =>
-                        <div className="mx-auto flex p-4 border-2 shadow  border-[#473684] rounded-2xl justify-between" key={book.id}>
-                            <Image className="  object-contain" src={book.image_url}
-                                alt="Book"
-                                width={200}
-                                height={300}
-                            />
+                        <div className="mx-auto grid grid-cols-1 lg:grid-cols-2  p-4 border-2 shadow  border-[#473684] rounded-2xl  w-full" key={book.id}>
+                            <div className="bg-white lg:bg-transparent rounded-2xl  shadow-[0px_0px_3px_0px] shadow-[#473684] lg:shadow-none py-5 lg:py-0  ">
 
-                            <div className="p-4 space-y-3 flex flex-col">
+                                <Image className="  object-contain mx-auto lg:mx-0    " src={book.image_url}
+                                    alt="Book"
+                                    width={200}
+                                    height={300}
+                                />
+                            </div>
+
+                            <div className="p-4  flex flex-col">
                                 <h1 className="font-bold text-xl"> {book.title}</h1>
                                 <span className="primary-text font-bold"> {book.author}</span>
-                                <p className="text-gray-500">{book.description}</p>
-                                <span className="">{book.category}</span>
-                                <p className="font-bold primary-text">{book.available_quantity}</p>
+                                <p className="text-gray-500 mt-2">{book.description}</p>
+                                <span className="mt-2">Category: {book.category}</span>
+                                <p className="font-bold primary-text">Available: {book.available_quantity}</p>
                                 <div className="flex-1"></div>
-                                <button className="btn primary-bg text-white">View Details <FaArrowRightLong /></button>
+                                <Link href={`/bookDetails/${book.id}`}>
+                                    <button className="btn primary-bg text-white">View Details <FaArrowRightLong /></button>
+
+                                </Link>
 
 
                             </div>
