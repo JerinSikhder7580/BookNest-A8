@@ -3,6 +3,7 @@ import { authClient } from "@/lib/auth-client";
 import { Button, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
 import { Check } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { GrGoogle } from "react-icons/gr";
 
 const SignUpPage = () => {
     const router = useRouter()
@@ -11,7 +12,7 @@ const SignUpPage = () => {
     const onSubmit = async (e) => {
         e.preventDefault()
         const name = e.target.name.value
-        const image=e.target.image.value
+        const image = e.target.image.value
         const email = e.target.email.value
         const password = e.target.password.value
 
@@ -29,6 +30,14 @@ const SignUpPage = () => {
         })
 
     }
+    const handleGoogleSignIn = async () => {
+        await authClient.signUp.social({
+            provider: "google"
+        })
+
+    }
+
+
 
     return (
         <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border border-[#00d3bb] rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
@@ -100,6 +109,8 @@ const SignUpPage = () => {
                     Reset
                 </Button>
             </div>
+            <Button onClick={handleGoogleSignIn} className="w-full"> <GrGoogle></GrGoogle> Sign in with Google</Button>
+
         </Form>
     );
 };

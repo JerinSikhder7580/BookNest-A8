@@ -20,9 +20,9 @@ const SignInPage = () => {
         })
     }
 
-    const handleGoogleSignIn =async () => {
+    const handleGoogleSignIn = async () => {
         await authClient.signIn.social({
-            provider:"google"
+            provider: "google"
         })
 
     }

@@ -3,14 +3,17 @@
 import { UpdateUserProfile } from "@/components/UpdateUserProfile";
 import { authClient } from "@/lib/auth-client";
 import { Avatar, Card } from "@heroui/react";
+import { redirect } from "next/navigation";
 
 const MyProfile = () => {
 
     const {
         data: session, } = authClient.useSession()
     const user = session?.user
-    console.log(user)
 
+    // if(!user){
+    //     redirect("/signin")
+    // }
     return (
         <div >
             <Card className=" flex flex-col items-center bg-transparent mt-9 border-l-5 border-r-5 border-[#c6a8ff] max-w-96 mx-auto shadow-2xl">
