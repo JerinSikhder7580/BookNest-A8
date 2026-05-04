@@ -12,7 +12,7 @@ const CategorySidebar = ({ selectedCategory, setSelectedCategory }) => {
                     key={cat}
                     onClick={() => setSelectedCategory(cat)}
                     className={`cursor-pointer p-2 rounded ${selectedCategory === cat
-                            ? "bg-blue-500 text-white"
+                            ? "primary-bg text-white"
                             : "hover:bg-gray-200"
                         }`}
                 >

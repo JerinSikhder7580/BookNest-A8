@@ -8,13 +8,9 @@ import Link from "next/link";
 import CategorySidebar from "@/components/CategorySidebar";
 
 const AllBooks = () => {
-    // Category state
     const [selectedCategory, setSelectedCategory] = useState("All");
-
-    // Search state
     const [searchText, setSearchText] = useState("");
 
-    // Filter logic (category + search)
     const filteredBooks = booksData.filter((book) => {
         const matchCategory =
             selectedCategory === "All" ||
@@ -28,14 +24,14 @@ const AllBooks = () => {
     });
 
     return (
-        <div className="mt-10">
+        <div className="mt-6 sm:mt-10 px-3 sm:px-5">
             <section>
 
-                {/* Search */}
+                {/* SEARCH */}
                 <div>
                     <form
                         onSubmit={(e) => e.preventDefault()}
-                        className="flex gap-2 items-center w-full"
+                        className="flex flex-col sm:flex-row gap-2 items-stretch sm:items-center w-full"
                     >
                         <label className="input border-none flex-1 shadow-sm">
                             <Search size={18} />
@@ -44,68 +40,72 @@ const AllBooks = () => {
                                 placeholder="Search books..."
                                 value={searchText}
                                 onChange={(e) => setSearchText(e.target.value)}
+                                className="w-full"
                             />
                         </label>
-                        <button className="btn btn-primary">
+
+                        <button className="btn primary-bg text-white w-full sm:w-auto">
                             <Search size={18} /> Search
                         </button>
                     </form>
                 </div>
 
-                <div className="grid grid-cols-2 bg-white p-3 rounded-xl shadow-sm mt-5">
+                {/* HEADER */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 bg-white p-3 sm:p-4 rounded-xl shadow-sm mt-5 gap-3">
                     <div>
-                        <h1 className="primary-text text-sm font-bold tracking-wider">
+                        <h1 className="primary-text text-xs sm:text-sm font-bold tracking-wider">
                             DIGITAL SHELF
                         </h1>
-                        <h2 className="text-3xl font-bold mt-2">
+
+                        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mt-2">
                             {`${filteredBooks.length} books ready to explore`}
                         </h2>
                     </div>
-                    <p className="text-sm text-gray-500">
+
+                    <p className="text-xs sm:text-sm text-gray-500">
                         Filter books using the left sidebar (Story, Tech, Science).
                     </p>
                 </div>
 
-                {/* Layout */}
-                <div className="flex gap-5 mt-5">
+                {/* MAIN LAYOUT */}
+                <div className="flex flex-col lg:flex-row gap-5 mt-5">
 
-                    {/* Sidebar Component */}
                     <CategorySidebar
                         selectedCategory={selectedCategory}
                         setSelectedCategory={setSelectedCategory}
                     />
 
-                    {/* Books */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 flex-1">
+                    {/* BOOK GRID */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 flex-1">
                         {filteredBooks.length > 0 ? (
                             filteredBooks.map((book) => (
                                 <div
-                                    className="border-2 border-[#473684] rounded-2xl shadow-2xl p-5"
+                                    className="border-2 border-[#473684] rounded-2xl shadow-2xl p-4 sm:p-5"
                                     key={book.id}
                                 >
                                     <div className="relative aspect-square w-full">
                                         <Image
-                                            className="object-cover"
+                                            className="object-cover rounded-xl"
                                             src={book.image_url}
                                             alt="Book"
                                             fill
                                         />
                                     </div>
 
-                                    <div className="flex justify-between mt-3 primary-text font-semibold">
+                                    <div className="flex justify-between mt-3 primary-text font-semibold text-sm sm:text-base">
                                         <h1>{book.title}</h1>
                                         <h1>{book.category}</h1>
                                     </div>
 
                                     <Link href={`/bookDetails/${book.id}`}>
-                                        <button className="btn primary-bg text-white w-full mt-3">
+                                        <button className="btn primary-bg text-white w-full mt-3 flex items-center justify-center gap-2">
                                             View Details <ArrowRight />
                                         </button>
                                     </Link>
                                 </div>
                             ))
                         ) : (
-                            <p className="text-center col-span-full text-gray-500">
+                            <p className="text-center col-span-full text-gray-500 text-sm sm:text-base">
                                 No books found
                             </p>
                         )}

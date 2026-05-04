@@ -22,9 +22,9 @@ const Navbar = () => {
 
     const links = <>
 
-        <li><NavLink href="/">Home</NavLink></li>
-        <li><NavLink href="/all-books">AllBooks</NavLink></li>
-        <li><NavLink href="/profile">MyProfile</NavLink></li>
+        <li className="font-semibold"><NavLink href="/">Home</NavLink></li>
+        <li className="font-semibold"><NavLink href="/all-books">AllBooks</NavLink></li>
+        <li className="font-semibold"><NavLink href="/profile">MyProfile</NavLink></li>
 
     </>
 
