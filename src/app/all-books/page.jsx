@@ -14,9 +14,9 @@ const AllBooks = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             try {
-                const res = await fetch("http://localhost:3000/booksData/books.json",{
-                    cache:"no-store",
-                });
+                const res = await fetch("https://book-nest-a8.vercel.app/booksData/books.json"
+
+                );
                 const data = await res.json();
                 setBooksData(data);
             } catch (error) {

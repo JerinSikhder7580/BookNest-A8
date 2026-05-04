@@ -18,9 +18,9 @@ const BookDetails = () => {
     const [bookData, setBookData] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/booksData/books.json",{
-            cache:'no-store',
-        })
+        fetch("https://book-nest-a8.vercel.app/booksData/books.json"
+
+        )
             .then(res => res.json())
             .then(data => setBookData(data));
     }, []);
