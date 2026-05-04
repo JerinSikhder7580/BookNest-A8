@@ -1,15 +1,31 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ArrowRight, Search } from "lucide-react";
-import booksData from "../../../public/booksData/books.json";
 import Image from "next/image";
 import Link from "next/link";
 import CategorySidebar from "@/components/CategorySidebar";
 
 const AllBooks = () => {
+    const [booksData, setBooksData] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState("All");
     const [searchText, setSearchText] = useState("");
+
+    useEffect(() => {
+        const fetchBooks = async () => {
+            try {
+                const res = await fetch("http://localhost:3000/booksData/books.json",{
+                    cache:"no-store",
+                });
+                const data = await res.json();
+                setBooksData(data);
+            } catch (error) {
+                console.error("Failed to fetch books:", error);
+            }
+        };
+
+        fetchBooks();
+    }, []);
 
     const filteredBooks = booksData.filter((book) => {
         const matchCategory =
@@ -50,7 +66,6 @@ const AllBooks = () => {
                     </form>
                 </div>
 
-                {/* HEADER */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 bg-white p-3 sm:p-4 rounded-xl shadow-sm mt-5 gap-3">
                     <div>
                         <h1 className="primary-text text-xs sm:text-sm font-bold tracking-wider">
@@ -67,7 +82,6 @@ const AllBooks = () => {
                     </p>
                 </div>
 
-                {/* MAIN LAYOUT */}
                 <div className="flex flex-col lg:flex-row gap-5 mt-5">
 
                     <CategorySidebar
@@ -75,7 +89,6 @@ const AllBooks = () => {
                         setSelectedCategory={setSelectedCategory}
                     />
 
-                    {/* BOOK GRID */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 flex-1">
                         {filteredBooks.length > 0 ? (
                             filteredBooks.map((book) => (

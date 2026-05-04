@@ -1,13 +1,24 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
 import { FaArrowRightLong } from "react-icons/fa6";
-import booksData from "../../public/booksData/books.json";
 import Link from "next/link";
 import Image from "next/image";
 import "animate.css";
 
 const Banner = () => {
+    const [booksData, setBooksData] = useState([]);
+
+
+    useEffect(() => {
+        fetch("http://localhost:3000/booksData/books.json",{
+            cache: "no-store",
+        })
+            .then(res => res.json())
+            .then(data => setBooksData(data));
+    }, []);
+
     return (
         <div>
             {/* HERO SECTION */}

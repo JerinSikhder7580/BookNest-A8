@@ -4,37 +4,23 @@ import { Button, Description, FieldError, Form, Input, Label, TextField } from "
 
 const LoginPage = () => {
 
-
     const onSubmit = async (e) => {
         e.preventDefault()
         const email = e.target.email.value
         const password = e.target.password.value
 
-
         const { data, error } = await authClient.signIn.email({
             email,
             password,
             callbackURL: '/'
-
-
-
-
         })
-
     }
-    // const handleGoogleSignUp = async () => {
-    //     await authClient.signIn.social({
-    //         provider: "google"
-    //     })
-
-    // }
-
-
 
     return (
-        <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border border-[#00d3bb] rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
-
-
+        <Form
+            className="flex w-full max-w-sm sm:max-w-md flex-col gap-4 mx-auto p-5 sm:p-8 md:p-10 border-2 border-[#0f3156] rounded-2xl shadow-lg mt-6 sm:mt-10"
+            onSubmit={onSubmit}
+        >
 
             <TextField
                 isRequired
@@ -48,9 +34,10 @@ const LoginPage = () => {
                 }}
             >
                 <Label>Email</Label>
-                <Input placeholder="john@example.com" />
+                <Input className="w-full" placeholder="john@example.com" />
                 <FieldError />
             </TextField>
+
             <TextField
                 isRequired
                 minLength={8}
@@ -70,21 +57,16 @@ const LoginPage = () => {
                 }}
             >
                 <Label>Password</Label>
-                <Input placeholder="Enter your password" />
-                <Description>Must be at least 8 characters with 1 uppercase and 1 number</Description>
+                <Input className="w-full" placeholder="Enter your password" />
+                <Description>
+                    Must be at least 8 characters with 1 uppercase and 1 number
+                </Description>
                 <FieldError />
             </TextField>
-            <Button type="submit" className=" primary-bg w-full text-white">LogIn</Button>
-            {/* <div className="flex gap-2">
-                <Button type="submit">
-                    <Check />
-                    Submit
-                </Button>
-                <Button type="reset" variant="secondary">
-                    Reset
-                </Button>
-            </div> */}
-            {/* <Button onClick={handleGoogleSignUp} className="w-full"> <GrGoogle></GrGoogle> SignUp with Google</Button> */}
+
+            <Button type="submit" className="bg-[#0f3156] w-full text-white">
+                LogIn
+            </Button>
 
         </Form>
     );

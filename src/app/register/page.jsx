@@ -6,11 +6,8 @@ import { GrGoogle } from "react-icons/gr";
 import { useRouter } from "next/navigation";
 import { toast, ToastContainer } from "react-toastify";
 
-
 const RegisterPage = () => {
     const router = useRouter()
-
-
 
     const onSubmit = async (e) => {
         e.preventDefault()
@@ -18,6 +15,7 @@ const RegisterPage = () => {
         const image = e.target.image.value
         const email = e.target.email.value
         const password = e.target.password.value
+
         console.log({ name, password, email, image })
 
         const { data, error } = await authClient.signUp.email({
@@ -25,45 +23,40 @@ const RegisterPage = () => {
             image,
             email,
             password,
-        },
+        })
 
-        )
         console.log({ data, error })
+
         if (!error) {
             toast.success("Sign Up Successfully");
             router.push("/")
         } else {
             alert("log in failed")
         }
-
     }
 
     const handleGoogleSignIn = async () => {
         await authClient.signIn.social({
             provider: "google"
         })
-
-
-
     }
+
     return (
 
         <div>
             {/* <ToastContainer /> */}
 
+            <Form
+                className="flex w-full max-w-sm sm:max-w-md flex-col gap-4 mx-auto p-5 sm:p-8 md:p-10 border-2 border-[#9e92c2] rounded-2xl shadow-lg mt-6 sm:mt-10"
+                onSubmit={onSubmit}
+            >
 
-            <Form className="flex w-96 flex-col gap-4 mx-auto p-10 border border-[#00d3bb] rounded-2xl shadow-lg mt-10 " onSubmit={onSubmit} >
-
-                <TextField
-                    isRequired
-                    name="name"
-                    type="text"
-
-                >
+                <TextField isRequired name="name" type="text">
                     <Label>Name</Label>
-                    <Input placeholder="Enter your name" />
+                    <Input className="w-full" placeholder="Enter your name" />
                     <FieldError />
                 </TextField>
+
                 <TextField
                     isRequired
                     name="email"
@@ -76,9 +69,10 @@ const RegisterPage = () => {
                     }}
                 >
                     <Label>Email</Label>
-                    <Input placeholder="john@example.com" />
+                    <Input className="w-full" placeholder="john@example.com" />
                     <FieldError />
                 </TextField>
+
                 <TextField
                     isRequired
                     minLength={8}
@@ -98,33 +92,34 @@ const RegisterPage = () => {
                     }}
                 >
                     <Label>Password</Label>
-                    <Input placeholder="Enter your password" />
-                    <Description>Must be at least 8 characters with 1 uppercase and 1 number</Description>
+                    <Input className="w-full" placeholder="Enter your password" />
+                    <Description>
+                        Must be at least 8 characters with 1 uppercase and 1 number
+                    </Description>
                     <FieldError />
                 </TextField>
-                <TextField
-                    isRequired
-                    name="image"
-                    type="url"
-                >
+
+                <TextField isRequired name="image" type="url">
                     <Label>Image URL</Label>
-                    <Input placeholder="Image URL" />
+                    <Input className="w-full" placeholder="Image URL" />
                     <FieldError />
                 </TextField>
+
                 <div className="flex justify-center gap-2">
                     <button className="btn w-full">Register</button>
                 </div>
+
                 <p className="text-center">or</p>
-                <Button onClick={handleGoogleSignIn} className="w-full"> <GrGoogle></GrGoogle> Sign in with Google</Button>
 
-
-
+                <Button
+                    onClick={handleGoogleSignIn}
+                    className="w-full bg-[#9e92c2] text-black"
+                >
+                    <GrGoogle /> Sign in with Google
+                </Button>
 
             </Form>
         </div>
-
-
-
     );
 };
 
